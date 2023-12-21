@@ -1,16 +1,18 @@
 .header {
+    overflow: hidden;
     padding-top: 4%;
     padding-left: 15px;
     display: flex;
     align-items: center;
-    padding-bottom: 0px;
+    padding-bottom: 4%;
     justify-content: space-between;
-    margin-right: 150px;
-    background-color: #00FFFE;
+    // margin-right: 150px;
+    background-color: #000000;
 
     @include md {
         padding-top: 1%;
         padding-left: 26px;
+        padding-bottom: 1%;
         // margin-right: 200px;
     }
 
@@ -30,6 +32,7 @@
 .new_page-block {
     font-family: 'Bangers', sans-serif;
     display: flex;
+margin-right: 18%;
 
     @include md {}
 
@@ -42,7 +45,7 @@
     text-decoration: none;
     padding-right: 40%;
     flex-direction: row;
-
+    color: #ffffff;
     &:hover {
 
         text-shadow: -1px 1px #FF3AC0;
@@ -88,6 +91,7 @@
     font-size: 29px;
     text-decoration: none;
     flex-direction: row;
+    color: #ffffff;
 
     &:hover {
 

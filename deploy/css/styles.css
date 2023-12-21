@@ -313,19 +313,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
+  overflow: hidden;
   padding-top: 4%;
   padding-left: 15px;
   display: flex;
   align-items: center;
-  padding-bottom: 0px;
+  padding-bottom: 4%;
   justify-content: space-between;
-  margin-right: 150px;
-  background-color: #00FFFE;
+  background-color: #000000;
 }
 @media (min-width: 768px) {
   .header {
     padding-top: 1%;
     padding-left: 26px;
+    padding-bottom: 1%;
   }
 }
 .header_logo {
@@ -339,6 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 .new_page-block {
   font-family: "Bangers", sans-serif;
   display: flex;
+  margin-right: 18%;
 }
 .new_page1 {
   color: #000000;
@@ -346,6 +348,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   padding-right: 40%;
   flex-direction: row;
+  color: #ffffff;
 }
 .new_page1:hover {
   text-shadow: -1px 1px #FF3AC0;
@@ -385,6 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 29px;
   text-decoration: none;
   flex-direction: row;
+  color: #ffffff;
 }
 .new_page3:hover {
   text-shadow: -1px 1px #00FFFE;
