@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 992px) {
   .current_event_picture {
-    width: 500px;
+    width: 600px;
     float: right;
   }
 }
@@ -504,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 50px;
     width: 90%;
     align-items: center;
-    padding-top: 0px;
+    padding-top: 40px;
   }
 }
 @media (min-width: 992px) {
