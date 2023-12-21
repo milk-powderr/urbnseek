@@ -65,9 +65,10 @@
     }
 }
 
-.name {
+.event_name {
     color: #000000;
     text-shadow: -1px 1px #F2FF00;
+    font-family: 'Bangers';
 
     @include md {
         text-shadow: -2px 2px #F2FF00;

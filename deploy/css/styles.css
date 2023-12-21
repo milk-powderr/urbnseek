@@ -471,12 +471,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.name {
+.event_name {
   color: #000000;
   text-shadow: -1px 1px #F2FF00;
+  font-family: "Bangers";
 }
 @media (min-width: 768px) {
-  .name {
+  .event_name {
     text-shadow: -2px 2px #F2FF00;
   }
 }
