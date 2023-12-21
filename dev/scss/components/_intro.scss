@@ -65,12 +65,12 @@
     }
 }
 
-#name {
-    color: #FFC700;
-    text-shadow: -1px 1px #000000;
+.name {
+    color: #000000;
+    text-shadow: -1px 1px #F2FF00;
 
     @include md {
-        text-shadow: -2px 2px #000000;
+        text-shadow: -2px 2px #F2FF00;
     }
 }
 
@@ -99,7 +99,7 @@
 hr {
     height: 2px;
     border: 0;
-    background-color: #FFC700;
+    background-color: #F2FF00;
     margin-left: 25px;
     margin-right: 25px;
 
@@ -200,7 +200,7 @@ hr {
 }
 
 .resume-button {
-    color: #000000;
+    color: #F2FF00;
     transition: 0.25s;
     padding: 10px 20px;
     border-radius: 30px;

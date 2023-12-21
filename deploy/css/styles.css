@@ -471,13 +471,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#name {
-  color: #FFC700;
-  text-shadow: -1px 1px #000000;
+.name {
+  color: #000000;
+  text-shadow: -1px 1px #F2FF00;
 }
 @media (min-width: 768px) {
-  #name {
-    text-shadow: -2px 2px #000000;
+  .name {
+    text-shadow: -2px 2px #F2FF00;
   }
 }
 
@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   height: 2px;
   border: 0;
-  background-color: #FFC700;
+  background-color: #F2FF00;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -611,7 +611,7 @@ hr {
 }
 
 .resume-button {
-  color: #000000;
+  color: #F2FF00;
   transition: 0.25s;
   padding: 10px 20px;
   border-radius: 30px;
@@ -2439,12 +2439,13 @@ hr {
 
 .footer-block {
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #f5ac78;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 20px;
   text-align: center;
+  font-family: "Alumni Sans", sans-serif;
   gap: 10px;
   display: flex;
   flex-direction: row;
@@ -2452,7 +2453,6 @@ hr {
   align-items: center;
   width: 100%;
   padding-top: 9px;
-  position: fixed;
   bottom: 0;
 }
 @media (min-width: 768px) {
