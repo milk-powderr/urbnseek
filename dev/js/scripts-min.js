@@ -1,1 +1,1 @@
-var tl=new TimelineMax({paused:!0});function doCoolStuff(){tl.isActive()||tl.play(0)}tl.to(".oreo_panels",2,{rotation:360,ease:Power2.easeInOut}),document.querySelector(".oreo_panels").addEventListener("mouseenter",doCoolStuff);
+const carousel=document.querySelector(".carousel-container"),slide=document.querySelector(".carousel-slide");function handleCarouselMove(e=!0){const l=slide.clientWidth;carousel.scrollLeft=e?carousel.scrollLeft+l:carousel.scrollLeft-l}
