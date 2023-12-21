@@ -2446,6 +2446,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/urbnseek-logo.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/urbnseek-logo.ico",
+      "oF" : 0
+    },
+    "\/deploy\/img\/urbnseek-logo.png" : {
+      "ft" : 32768,
+      "iS" : 29232,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/urbnseek-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/warmer1.jpg" : {
       "ft" : 16384,
       "iS" : 3751574,
@@ -2831,7 +2852,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/components\/intro.html",
       "oF" : 0
     },
