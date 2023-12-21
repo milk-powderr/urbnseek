@@ -10,6 +10,26 @@
 }
 }
 
+.whats-new-title {
+    font-size: 40px;
+    padding-left: 30px;
+    text-shadow: -1px 1px #A200FF;
+
+    @include md {
+        font-size: 50px;
+        text-shadow: -2px 2px #A200FF;
+        // width: 90%;
+        // align-items: center;
+        // padding-top: 0px;
+    }
+
+    @include lg {
+        font-size: 60px;
+        // width: 80%;
+    }
+}
+
+
 .magazine_panel {
     width: 100%;
     height: 550px;
@@ -51,3 +71,10 @@
 .magazine-title-2 {
     font-size: 30px;
 }
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    }
