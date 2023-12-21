@@ -618,66 +618,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
 }
 
-.hallway-painting_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.music-poster_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.oreo_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.bartram_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.cake_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.cake-menu_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.pill-print_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.emmelina_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.bread_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
-.exhibition_panel {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-}
-
 .title {
   padding-top: 50px;
   font-size: 60px;
