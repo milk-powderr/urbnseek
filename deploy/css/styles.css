@@ -548,85 +548,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: -13px;
 }
 
-hr {
-  height: 2px;
-  border: 0;
-  background-color: #F2FF00;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-@media (min-width: 768px) {
-  hr {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-@media (min-width: 992px) {
-  hr {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
-
-.bottom-block {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-}
-
-.education {
-  padding-top: 30px;
-  padding-left: 40px;
-  list-style-type: none;
-}
-@media (min-width: 768px) {
-  .education {
-    padding-left: 59px;
-  }
-}
-
-.education-title {
-  font-size: 27px;
-  font-weight: 400;
-  color: #FFC700;
-  text-shadow: -1px 1px #000000;
-  padding-left: 1.5px;
-  padding-bottom: 10px;
-}
-
-.education-2 {
-  font-size: 22px;
-  font-weight: 300;
-  padding-left: 1.5px;
-}
-
-.education-3 {
-  font-size: 22px;
-  font-weight: 300;
-  padding-left: 1.5px;
-  padding-bottom: 30px;
-}
-
-.skills {
-  list-style-type: none;
-  padding-top: 30px;
-}
-
-.honors {
-  list-style-type: none;
-  padding-left: 40px;
-  padding-top: 30px;
-}
-@media (min-width: 768px) {
-  .honors {
-    padding-left: 59px;
-  }
-}
-
-.programs {
-  list-style-type: none;
-  padding-top: 30px;
-}
-
 .register-button {
   color: #000000;
   transition: 0.25s;
@@ -641,19 +562,6 @@ hr {
   text-decoration: none;
   color: #000000;
   font-family: "Bangers";
-}
-
-.bottom-block {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  padding-bottom: 30px;
-  width: 90%;
-}
-@media (min-width: 768px) {
-  .bottom-block {
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .front-works {
