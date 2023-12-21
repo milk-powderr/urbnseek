@@ -403,6 +403,49 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 39px;
   }
 }
+.footer-block {
+  overflow: hidden;
+  background-color: #F2FF00;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  font-family: "Alumni Sans", sans-serif;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 9px;
+  bottom: 0;
+}
+@media (min-width: 768px) {
+  .footer-block {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    gap: 10px;
+  }
+}
+
+.footer_word {
+  color: #000000;
+  font-size: 22px;
+  font-family: "Alumni Sans", sans-serif;
+  animation: marquee 1.5s infinite linear;
+  flex-shrink: 0;
+}
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @media (min-width: 992px) {
   .aboutstuff {
     display: grid;
@@ -2437,47 +2480,4 @@ hr {
 .email-logo {
   width: 30px;
   padding-top: -30px;
-}
-
-.footer-block {
-  overflow: hidden;
-  background-color: #F2FF00;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 20px;
-  text-align: center;
-  font-family: "Alumni Sans", sans-serif;
-  gap: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-top: 9px;
-  bottom: 0;
-}
-@media (min-width: 768px) {
-  .footer-block {
-    font-size: 11px;
-    line-height: 20px;
-    font-weight: 400;
-    gap: 10px;
-  }
-}
-
-.footer_word {
-  color: #000000;
-  font-size: 22px;
-  font-family: "Alumni Sans", sans-serif;
-  animation: marquee 1.5s infinite linear;
-  flex-shrink: 0;
-}
-@keyframes scrolling {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }

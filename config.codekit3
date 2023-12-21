@@ -2709,14 +2709,6 @@
       "oAP" : "\/dev\/components\/aboutpic.html",
       "oF" : 0
     },
-    "\/dev\/components\/current-event.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/components\/current-event.html",
-      "oF" : 0
-    },
     "\/dev\/components\/desc-augment.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2755,6 +2747,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/desc-crit-hit.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/desc-current-event.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/desc-current-event.html",
       "oF" : 0
     },
     "\/dev\/components\/desc-emmelina.kit" : {
@@ -2837,6 +2837,14 @@
       "oAP" : "\/dev\/components\/desc-warmers.html",
       "oF" : 0
     },
+    "\/dev\/components\/desc-whats-new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/work.html",
+      "oF" : 3
+    },
     "\/dev\/components\/desc-wonderfilled.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2876,14 +2884,6 @@
       "oA" : 1,
       "oAP" : "\/dev\/components\/play.html",
       "oF" : 1
-    },
-    "\/dev\/components\/whats-new.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/work.html",
-      "oF" : 3
     },
     "\/dev\/crit-hit.kit" : {
       "cB" : 0,
@@ -3100,21 +3100,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_current-event.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_current-event.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/components\/_desc-augment.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3185,6 +3170,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_desc-crit-hit.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/components\/_desc-current-event.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_desc-current-event.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3340,6 +3340,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/components\/_desc-whats-new.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_desc-whats-new.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/components\/_desc-wonderfilled.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3440,21 +3455,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_play.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_whats-new.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_whats-new.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
