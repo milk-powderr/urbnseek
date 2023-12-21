@@ -101,6 +101,14 @@
       "oAP" : "\/deploy\/flushed-hall.html",
       "oF" : 0
     },
+    "\/deploy\/home.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/home.html",
+      "oF" : 0
+    },
     "\/deploy\/img\/alt-spread-1.jpg" : {
       "ft" : 16384,
       "iS" : 1027388,
@@ -2393,7 +2401,7 @@
     },
     "\/deploy\/img\/register.jpg" : {
       "ft" : 16384,
-      "iS" : 0,
+      "iS" : 2826289,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/register.jpg",
@@ -2512,14 +2520,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Week10_FINAL_Brand Presentation 4.pdf",
-      "oF" : 0
-    },
-    "\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
     "\/deploy\/js\/scripts-min-min.js" : {
@@ -2709,6 +2709,14 @@
       "oAP" : "\/dev\/components\/aboutpic.html",
       "oF" : 0
     },
+    "\/dev\/components\/current-event.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/current-event.html",
+      "oF" : 0
+    },
     "\/dev\/components\/desc-augment.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2845,14 +2853,6 @@
       "oAP" : "\/dev\/components\/details.html",
       "oF" : 0
     },
-    "\/dev\/components\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/footer.html",
-      "oF" : 1
-    },
     "\/dev\/components\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2861,13 +2861,13 @@
       "oAP" : "\/dev\/components\/header.html",
       "oF" : 1
     },
-    "\/dev\/components\/intro.kit" : {
+    "\/dev\/components\/jumbotron.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/components\/intro.html",
-      "oF" : 0
+      "oAP" : "\/dev\/components\/jumbotron.html",
+      "oF" : 1
     },
     "\/dev\/components\/play.kit" : {
       "cB" : 0,
@@ -2877,7 +2877,7 @@
       "oAP" : "\/dev\/components\/play.html",
       "oF" : 1
     },
-    "\/dev\/components\/work.kit" : {
+    "\/dev\/components\/whats-new.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -2947,7 +2947,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/index.kit" : {
+    "\/dev\/home.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -3095,6 +3095,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/components\/_current-event.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_current-event.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3355,21 +3370,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_footer.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_footer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3400,7 +3400,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_intro.scss" : {
+    "\/dev\/scss\/components\/_jumbotron.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3409,7 +3409,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_intro.css",
+      "oAP" : "\/dev\/scss\/components\/_jumbotron.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3445,7 +3445,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_work.scss" : {
+    "\/dev\/scss\/components\/_whats-new.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3454,7 +3454,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_work.css",
+      "oAP" : "\/dev\/scss\/components\/_whats-new.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
