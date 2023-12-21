@@ -1,4 +1,4 @@
-.aboutstuff {
+.current_event {
 
     @include lg {
         display: grid;
@@ -7,7 +7,7 @@
     }
 }
 
-.aboutpic_panel {
+.current_event_picture {
 
     object-fit: cover;
     width: 400px;
@@ -26,7 +26,7 @@
     }
 }
 
-.aboutpic_panels {
+.current_event_picture_panels {
 
     padding-top: 80px;
     margin-left: 30px;
@@ -75,7 +75,7 @@
     }
 }
 
-.paragraph11 {
+.event_details    {
     font-size: 22px;
     font-weight: 300;
     padding-left: 1.5px;

@@ -2753,7 +2753,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/components\/desc-current-event.html",
       "oF" : 0
     },
@@ -2952,7 +2952,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
+      "oAP" : "\/deploy\/home.html",
       "oF" : 2
     },
     "\/dev\/js\/scripts-min.js" : {
