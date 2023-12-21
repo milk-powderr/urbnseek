@@ -2632,14 +2632,6 @@
       "oAP" : "\/deploy\/augment.html",
       "oF" : 2
     },
-    "\/dev\/bartram.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/bartram.html",
-      "oF" : 2
-    },
     "\/dev\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2685,22 +2677,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/bread.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/bread.html",
-      "oF" : 2
-    },
-    "\/dev\/cake-menu.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/cake-menu.html",
-      "oF" : 2
-    },
     "\/dev\/components\/aboutpic.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2717,30 +2693,6 @@
       "oAP" : "\/dev\/components\/desc-augment.html",
       "oF" : 1
     },
-    "\/dev\/components\/desc-bartram.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-bartram.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-bread.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-bread.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-cake-menu.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-cake-menu.html",
-      "oF" : 0
-    },
     "\/dev\/components\/desc-crit-hit.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2749,70 +2701,6 @@
       "oAP" : "\/dev\/components\/desc-crit-hit.html",
       "oF" : 0
     },
-    "\/dev\/components\/desc-current-event.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-current-event.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-emmelina.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-emmelina.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-exhibition.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-exhibition.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-flushed-hall.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-flushed-hall.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-new-world-symphony.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-new-world-symphony.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-piece-of-cake.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-piece-of-cake.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-pills.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-pills.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/desc-rilke.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-rilke.html",
-      "oF" : 1
-    },
     "\/dev\/components\/desc-sanrio.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2820,14 +2708,6 @@
       "oA" : 1,
       "oAP" : "\/dev\/components\/desc-sanrio.html",
       "oF" : 0
-    },
-    "\/dev\/components\/desc-slap.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-slap.html",
-      "oF" : 1
     },
     "\/dev\/components\/desc-warmers.kit" : {
       "cB" : 0,
@@ -2844,14 +2724,6 @@
       "oA" : 1,
       "oAP" : "\/deploy\/work.html",
       "oF" : 3
-    },
-    "\/dev\/components\/desc-wonderfilled.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-wonderfilled.html",
-      "oF" : 0
     },
     "\/dev\/components\/details.kit" : {
       "cB" : 0,
@@ -2891,30 +2763,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/crit-hit.html",
-      "oF" : 2
-    },
-    "\/dev\/emmelina.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/emmelina.html",
-      "oF" : 2
-    },
-    "\/dev\/exhibition.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/exhibition.html",
-      "oF" : 2
-    },
-    "\/dev\/flushed-hall.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/flushed-hall.html",
       "oF" : 2
     },
     "\/dev\/helpers\/_mixins.scss" : {
@@ -2977,44 +2825,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/new-world-symphony.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/new-world-symphony.html",
-      "oF" : 2
-    },
-    "\/dev\/piece-of-cake.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/piece-of-cake.html",
-      "oF" : 2
-    },
-    "\/dev\/pills.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/pills.html",
-      "oF" : 2
-    },
     "\/dev\/play.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/play.html",
-      "oF" : 2
-    },
-    "\/dev\/rilke.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/rilke.html",
       "oF" : 2
     },
     "\/dev\/sanrio.kit" : {
@@ -3115,51 +2931,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_desc-bartram.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-bartram.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-bread.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-bread.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-cake-menu.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-cake-menu.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/components\/_desc-crit-hit.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3190,111 +2961,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_desc-emmelina.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-emmelina.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-exhibition.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-exhibition.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-flushed-hall.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-flushed-hall.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-new-world-symphony.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-new-world-symphony.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-piece-of-cake.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-piece-of-cake.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-pills.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-pills.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-rilke.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-rilke.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/components\/_desc-sanrio.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3305,21 +2971,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_desc-sanrio.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-slap.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-slap.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3350,21 +3001,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_desc-whats-new.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-wonderfilled.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-wonderfilled.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3516,14 +3152,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/slap.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/slap.html",
-      "oF" : 2
     },
     "\/dev\/warmers.kit" : {
       "cB" : 0,
