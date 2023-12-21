@@ -6,11 +6,12 @@
     padding-bottom: 0px;
     justify-content: space-between;
     margin-right: 150px;
+    background-color: #00FFFE;
 
     @include md {
         padding-top: 1%;
         padding-left: 26px;
-        margin-right: 200px;
+        // margin-right: 200px;
     }
 
     @include lg {}

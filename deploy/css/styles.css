@@ -320,12 +320,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0px;
   justify-content: space-between;
   margin-right: 150px;
+  background-color: #00FFFE;
 }
 @media (min-width: 768px) {
   .header {
     padding-top: 1%;
     padding-left: 26px;
-    margin-right: 200px;
   }
 }
 .header_logo {
