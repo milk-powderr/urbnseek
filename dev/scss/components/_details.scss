@@ -13,10 +13,6 @@
     flex-direction: row;
 }
 
-#copyright {
-    font-size: 15px;
-}
-
 .linkedin {
     padding-right: 10px;
 }
@@ -32,17 +28,21 @@
 }
 
 .contact {
-   // display: grid;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 550px 550px 550px 1fr;
 
     @include md {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 550px 550px 1fr;
+        grid-template-rows: 50px 50px 1fr;
     }
 
     @include lg {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 550px 1fr;
+        grid-template-columns: 140px 140px 1fr;
+        grid-template-rows: 140px 1fr;
     }
+}
+
+.address {
+    font-family: 'Alumni Sans', sans-serif;
 }
