@@ -2512,22 +2512,6 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 2
     },
-    "\/dev\/augment.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/augment.html",
-      "oF" : 2
-    },
-    "\/dev\/bartram.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/bartram.html",
-      "oF" : 0
-    },
     "\/dev\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2572,22 +2556,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/bread.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/bread.html",
-      "oF" : 0
-    },
-    "\/dev\/cake-menu.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/cake-menu.html",
-      "oF" : 0
     },
     "\/dev\/components\/aboutpic.kit" : {
       "cB" : 0,
@@ -2669,38 +2637,6 @@
       "oAP" : "\/dev\/components\/play.html",
       "oF" : 1
     },
-    "\/dev\/crit-hit.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/crit-hit.html",
-      "oF" : 2
-    },
-    "\/dev\/emmelina.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/emmelina.html",
-      "oF" : 0
-    },
-    "\/dev\/exhibition.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/exhibition.html",
-      "oF" : 0
-    },
-    "\/dev\/flushed-hall.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/flushed-hall.html",
-      "oF" : 0
-    },
     "\/dev\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2761,30 +2697,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/new-world-symphony.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/new-world-symphony.html",
-      "oF" : 0
-    },
-    "\/dev\/piece-of-cake.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/piece-of-cake.html",
-      "oF" : 0
-    },
-    "\/dev\/pills.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/pills.html",
-      "oF" : 0
-    },
     "\/dev\/play.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2792,14 +2704,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/play.html",
       "oF" : 2
-    },
-    "\/dev\/rilke.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/rilke.html",
-      "oF" : 0
     },
     "\/dev\/sanrio.kit" : {
       "cB" : 0,
@@ -3105,14 +3009,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/slap.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/slap.html",
-      "oF" : 0
     },
     "\/dev\/warmers.kit" : {
       "cB" : 0,

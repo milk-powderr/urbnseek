@@ -666,105 +666,89 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.body {
-  background-color: #333;
-  color: #18e3b0;
-  font-family: "Josefin Sans";
+.calendar-wrapper {
+  width: 360px;
+  margin: 3em auto;
+  padding: 2em;
+  border: 1px solid #dcdcff;
+  border-radius: 5px;
+  background: #fff;
 }
 
-.calendar {
-  width: 350px;
-  margin: 50px auto 0;
-}
-
-.calendar__month {
-  font-size: 20px;
-  font-weight: 800;
-  padding: 10px 0;
+.calendar-wrapper table {
+  clear: both;
   width: 100%;
-  position: relative;
-  color: #000000;
+  border: 1px solid #dcdcff;
+  border-radius: 3px;
+  border-collapse: collapse;
+  color: #444;
 }
 
-.cal-month__previous,
-.cal-month__next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
+.calendar-wrapper td {
+  height: 48px;
   text-align: center;
-}
-.cal-month__previous:hover,
-.cal-month__next:hover {
-  background-color: #42A5F5;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.75);
-  border-radius: 50%;
-  font-weight: 800;
-  color: #111;
+  vertical-align: middle;
+  border-right: 1px solid #dcdcff;
+  border-top: 1px solid #dcdcff;
+  width: 14.28571429%;
 }
 
-.cal-month__next {
-  right: 0;
+.thead td {
+  border: none;
+  color: #28283b;
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
 
-.cal-month__current {
-  text-align: center;
-  color: #000000;
+.td.not-current {
+  color: #c0c0c0;
 }
 
-.cal-head__day,
-.cal-body__day {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+.td.today {
+  font-weight: 700;
+  color: #28283b;
+  font-size: 1.5em;
+}
+
+#btnPrev {
   float: left;
+  margin-bottom: 20px;
 }
 
-.cal-body__week,
-.calendar__head {
-  display: block;
-  height: 50px;
-  width: 350px;
+#btnPrev:before {
+  content: "\f104";
+  font-family: FontAwesome;
+  padding-right: 4px;
 }
 
-.calendar__head {
-  line-height: 50px;
-  position: relative;
-}
-.calendar__head:after {
-  content: " ";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background-color: #75c310;
+#btnNext {
+  float: right;
+  margin-bottom: 20px;
 }
 
-.cal-body__day {
-  color: #c01313;
-  text-shadow: #111;
-  line-height: 50px;
-  text-align: center;
+#btnNext:after {
+  content: "\f105";
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+
+#btnPrev,
+#btnNext {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
   cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
-.cal-day__month--current {
-  color: #c32020;
-}
-
-.cal-day__day--today {
-  font-weight: 800;
-  color: #c01313;
-}
-
-.cal-day__day--selected {
-  background-color: #2196f3;
-  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.75);
-  border-radius: 50%;
-  color: #111;
+#btnPrev:hover,
+#btnNext:hover {
+  color: #28283b;
+  font-weight: bold;
 }
 
 .title {
