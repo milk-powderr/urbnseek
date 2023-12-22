@@ -610,6 +610,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 30px;
 }
 
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px 1fr;
+}
+
 .title {
   padding-top: 50px;
   font-size: 60px;
