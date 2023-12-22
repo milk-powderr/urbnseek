@@ -34,6 +34,7 @@
     background-color: #ffffff;
     border-radius: 30px;
     box-shadow: 5px 5px 5px #00000071;
+    justify-self: center;
 }
 
 .boxes {
@@ -43,6 +44,11 @@
 
 
     @include md {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 550px 550px 550px 1fr;
+    }
+
+    @include lg {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 550px 550px 550px 1fr;
     }
