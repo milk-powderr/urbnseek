@@ -600,7 +600,7 @@ h1, h2, h3, h4, h5, h6 {
 .box {
   width: 300px;
   height: 400px;
-  background-color: #f1fbff;
+  background-color: #ffffff;
   border-radius: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4431372549);
 }
@@ -631,7 +631,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .event_details {
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   font-family: "Alumni Sans", sans-serif;
 }
