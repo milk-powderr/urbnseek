@@ -25,46 +25,6 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 0
     },
-    "\/deploy\/augment.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/augment.html",
-      "oF" : 0
-    },
-    "\/deploy\/bartram.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/bartram.html",
-      "oF" : 0
-    },
-    "\/deploy\/bread.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/bread.html",
-      "oF" : 0
-    },
-    "\/deploy\/cake-menu.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/cake-menu.html",
-      "oF" : 0
-    },
-    "\/deploy\/crit-hit.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/crit-hit.html",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -76,30 +36,6 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/deploy\/emmelina.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/emmelina.html",
-      "oF" : 0
-    },
-    "\/deploy\/exhibition.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/exhibition.html",
-      "oF" : 0
-    },
-    "\/deploy\/flushed-hall.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/flushed-hall.html",
-      "oF" : 0
     },
     "\/deploy\/home.html" : {
       "cB" : 0,
@@ -2544,44 +2480,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/deploy\/new-world-symphony.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/new-world-symphony.html",
-      "oF" : 0
-    },
-    "\/deploy\/piece-of-cake.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/piece-of-cake.html",
-      "oF" : 0
-    },
-    "\/deploy\/pills.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/pills.html",
-      "oF" : 0
-    },
     "\/deploy\/play.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/play.html",
-      "oF" : 0
-    },
-    "\/deploy\/rilke.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/rilke.html",
       "oF" : 0
     },
     "\/deploy\/sanrio.html" : {
@@ -2592,14 +2496,6 @@
       "oAP" : "\/deploy\/sanrio.html",
       "oF" : 0
     },
-    "\/deploy\/slap.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/slap.html",
-      "oF" : 1
-    },
     "\/deploy\/warmers.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2607,14 +2503,6 @@
       "oA" : 1,
       "oAP" : "\/deploy\/warmers.html",
       "oF" : 1
-    },
-    "\/deploy\/wonderfilled.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/wonderfilled.html",
-      "oF" : 0
     },
     "\/dev\/about.kit" : {
       "cB" : 0,
@@ -2709,20 +2597,12 @@
       "oAP" : "\/dev\/components\/aboutpic.html",
       "oF" : 0
     },
-    "\/dev\/components\/desc-augment.kit" : {
+    "\/dev\/components\/desc-calendar.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-augment.html",
-      "oF" : 1
-    },
-    "\/dev\/components\/desc-crit-hit.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-crit-hit.html",
+      "oAP" : "\/dev\/components\/desc-calendar.html",
       "oF" : 0
     },
     "\/dev\/components\/desc-current-event.kit" : {
@@ -3004,7 +2884,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_desc-augment.scss" : {
+    "\/dev\/scss\/components\/_desc-calendar.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3013,22 +2893,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-augment.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-crit-hit.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-crit-hit.css",
+      "oAP" : "\/dev\/scss\/components\/_desc-calendar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3089,21 +2954,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_desc-whats-new.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-wonderfilled.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-wonderfilled.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
