@@ -745,6 +745,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cal-body__day {
   color: #c01313;
+  text-shadow: #111;
   line-height: 50px;
   text-align: center;
   cursor: pointer;
@@ -756,7 +757,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cal-day__day--today {
   font-weight: 800;
-  color: #2196f3;
+  color: #c01313;
 }
 
 .cal-day__day--selected {
