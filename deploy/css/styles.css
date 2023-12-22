@@ -1076,8 +1076,8 @@ hr {
 }
 @media (min-width: 768px) {
   .contact {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 50px 1fr;
+    grid-template-columns: 140px 140px 1fr;
+    grid-template-rows: 140px 1fr;
   }
 }
 @media (min-width: 992px) {
@@ -1089,4 +1089,5 @@ hr {
 
 .address {
   font-family: "Alumni Sans", sans-serif;
+  margin-top: 0%;
 }
