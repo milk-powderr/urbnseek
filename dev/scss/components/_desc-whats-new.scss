@@ -1,13 +1,5 @@
 .front-works {
     display: grid;
-    //    grid-template-columns: repeat(1, 1fr);
-    //    grid-template-rows: 550px 550px 550px 550px 550px 
-    //    550px 550px 550px 550px 550px 1fr;
-
-    //     @include md {
-    //     grid-template-columns: repeat(2, 1fr);
-    //     grid-template-rows: 550px 550px 550px 550px 550px 550px 1fr;
-    // }
 }
 
 .whats-new-title {
@@ -19,41 +11,12 @@
     @include md {
         font-size: 50px;
         text-shadow: -2px 2px #A200FF;
-        // width: 90%;
-        // align-items: center;
-        // padding-top: 0px;
     }
 
     @include lg {
         font-size: 60px;
-        // width: 80%;
     }
 }
-
-// .front-magazine-cover {
-//     width: 100%;
-//     position: absolute;
-//     opacity: 0;
-//     list-style-type: none;
-//     margin-top: 0px;
-//     color: #ffffff;
-//     height: 550px;
-
-//     &:hover {
-//         opacity: 1;
-//         transition: .3s ease;
-//         background-color: #ffc800ce;
-//         width: 100%;
-
-//         @include md {
-//         width: 50%;
-//         }
-//     }
-
-//     @include md {
-//     width: 50%;
-// }
-// }
 
 .magazine-title {
     padding-top: 20px;
@@ -68,7 +31,6 @@
 .box {
     width: 300px;
     height: 400px;
-    // border: 1px solid rgba(0, 0, 0, 0);
     background-color: #ffffff;
     border-radius: 30px;
     box-shadow: 5px 5px 5px #00000071;
