@@ -3017,14 +3017,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/warmers.html",
       "oF" : 2
-    },
-    "\/dev\/wonderfilled.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/wonderfilled.html",
-      "oF" : 2
     }
   },
   "hooks" : [

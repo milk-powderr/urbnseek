@@ -1044,7 +1044,6 @@ hr {
 
 .details {
   padding-left: 20px;
-  padding-bottom: 20px;
   padding-top: 30px;
   font-size: 20px;
   color: #6e6e6e;
@@ -1072,4 +1071,21 @@ hr {
 .email-logo {
   width: 30px;
   padding-top: -30px;
+}
+
+.contact {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 550px 550px 550px 1fr;
+}
+@media (min-width: 768px) {
+  .contact {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 550px 550px 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .contact {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 550px 1fr;
+  }
 }

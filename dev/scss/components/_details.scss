@@ -1,6 +1,6 @@
 .details {
     padding-left: 20px;
-    padding-bottom: 20px;
+  //  padding-bottom: 20px;
     padding-top: 30px;
     font-size: 20px;
   //  width: 200px;
@@ -29,4 +29,20 @@
 .email-logo {
     width: 30px;
     padding-top: -30px;
+}
+
+.contact {
+   // display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 550px 550px 550px 1fr;
+
+    @include md {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 550px 550px 1fr;
+    }
+
+    @include lg {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 550px 1fr;
+    }
 }
