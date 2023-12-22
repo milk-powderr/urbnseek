@@ -648,6 +648,28 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 28px;
 }
 
+.front-works {
+  display: grid;
+}
+
+.whats-new-title {
+  font-size: 40px;
+  padding-left: 30px;
+  text-shadow: -1px 1px #A200FF;
+  padding-bottom: 80px;
+}
+@media (min-width: 768px) {
+  .whats-new-title {
+    font-size: 50px;
+    text-shadow: -2px 2px #A200FF;
+  }
+}
+@media (min-width: 992px) {
+  .whats-new-title {
+    font-size: 60px;
+  }
+}
+
 .title {
   padding-top: 50px;
   font-size: 60px;
