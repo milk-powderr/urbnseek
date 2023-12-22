@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.event_details_section {
+.current_event_details_section {
   display: block;
   list-style-type: none;
   font-size: 40px;
@@ -502,31 +502,31 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
 }
 @media (min-width: 768px) {
-  .event_details_section {
+  .current_event_details_section {
     font-size: 50px;
     width: 90%;
     align-items: center;
   }
 }
 @media (min-width: 992px) {
-  .event_details_section {
+  .current_event_details_section {
     font-size: 60px;
     width: 80%;
   }
 }
 
-.event_name {
+.current_event_name {
   color: #000000;
   text-shadow: -1px 1px #F2FF00;
   font-family: "Bangers";
 }
 @media (min-width: 768px) {
-  .event_name {
+  .current_event_name {
     text-shadow: -2px 2px #F2FF00;
   }
 }
 
-.event_details {
+.current_event_details {
   font-size: 22px;
   font-weight: 300;
   padding-left: 1.5px;
