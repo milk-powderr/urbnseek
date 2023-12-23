@@ -1,5 +1,4 @@
 .current_event {
-    display: grid;
     background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -20,7 +19,7 @@
 .current_event_picture {
 
     object-fit: cover;
-    width: 400px;
+    width: 350px;
 
     @include md {
         width: 450px;

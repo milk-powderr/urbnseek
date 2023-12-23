@@ -448,7 +448,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .current_event {
-  display: grid;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -466,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .current_event_picture {
   object-fit: cover;
-  width: 400px;
+  width: 350px;
 }
 @media (min-width: 768px) {
   .current_event_picture {
