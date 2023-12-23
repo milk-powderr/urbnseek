@@ -72,11 +72,11 @@
 
 .current_event_name {
     color: #000000;
-    text-shadow: -1px 1px #A200FF;
+    text-shadow: -1px 1px #FF4B00;
     font-family: 'Bangers';
 
     @include md {
-        text-shadow: -2px 2px #A200FF;
+        text-shadow: -2px 2px #FF4B00;
     }
 }
 
