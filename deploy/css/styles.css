@@ -517,12 +517,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .current_event_name {
   color: #000000;
-  text-shadow: -1px 1px #F2FF00;
+  text-shadow: -1px 1px #A200FF;
   font-family: "Bangers";
 }
 @media (min-width: 768px) {
   .current_event_name {
-    text-shadow: -2px 2px #F2FF00;
+    text-shadow: -2px 2px #A200FF;
   }
 }
 
