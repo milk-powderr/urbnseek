@@ -1,5 +1,9 @@
 .front-works {
-    display: grid;
+ //   display: grid;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
 }
 
 .whats-new-title {
