@@ -10,7 +10,6 @@
 .icons {
     display: flex;
     flex-direction: row;
-    // grid-template-rows: 33% 33% 33%;
     padding-left: 30px;
     align-items: center;
 
@@ -61,8 +60,4 @@
     @include lg {
         grid-template-columns: 8% 10% 82% 1fr;
     }
-
-    // @include lg {
-    //     grid-template-columns: 6% 10% 84% 1fr;
-    // }
 }
