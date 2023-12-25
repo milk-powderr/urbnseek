@@ -1,6 +1,6 @@
 .details {
     padding-left: 20px;
-  //  padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-top: 30px;
     font-size: 20px;
   //  width: 200px;
@@ -47,5 +47,7 @@
     // }
 
     display: grid;
-    grid-template-columns: 15% 10% 75% 1fr;
+    grid-template-columns: 10% 10% 80% 1fr;
+
+    grid-template-columns: repeat(2, 1fr);
 }
