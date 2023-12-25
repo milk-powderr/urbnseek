@@ -37,14 +37,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/home.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/home.html",
-      "oF" : 0
-    },
     "\/deploy\/img\/alt-spread-1.jpg" : {
       "ft" : 16384,
       "iS" : 1027388,
@@ -2484,6 +2476,14 @@
       "oAP" : "\/deploy\/img\/Week10_FINAL_Brand Presentation 4.pdf",
       "oF" : 0
     },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 1
+    },
     "\/deploy\/js\/scripts-min-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2693,12 +2693,12 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/home.kit" : {
+    "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/home.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
     "\/dev\/js\/scripts-min.js" : {
