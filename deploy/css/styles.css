@@ -639,7 +639,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: #000000;
   text-shadow: -1px 1px #F2FF00;
-  justify-self: center;
   grid-column: 1/2;
   grid-row: 3/4;
 }
@@ -668,7 +667,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: #000000;
   text-shadow: -1px 1px #F2FF00;
-  justify-self: center;
   grid-column: 1/2;
   grid-row: 2/3;
 }
