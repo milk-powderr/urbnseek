@@ -642,6 +642,11 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 1/2;
   grid-row: 3/4;
 }
+@media (min-width: 768px) {
+  .event_date {
+    text-shadow: -2px 2px #F2FF00;
+  }
+}
 
 .event_details {
   font-size: 15px;
@@ -669,6 +674,11 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: -1px 1px #F2FF00;
   grid-column: 1/2;
   grid-row: 2/3;
+}
+@media (min-width: 768px) {
+  .date-number {
+    text-shadow: -2px 2px #F2FF00;
+  }
 }
 
 .whats_new_words {
