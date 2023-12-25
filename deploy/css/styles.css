@@ -1090,15 +1090,21 @@ hr {
 }
 
 .icons {
-  display: grid;
-  grid-template-rows: 33% 33% 33%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+@media (min-width: 768px) {
+  .icons {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+  }
 }
 
 .insta-logo {
   height: 20px;
   margin-bottom: -4.9px;
 }
-
 .instas-logo {
   grid-row: 1/2;
 }
@@ -1107,12 +1113,24 @@ hr {
   height: 20px;
   margin-bottom: -4.9px;
   grid-row: 3/4;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .facebook-logo {
+    padding-left: 0px;
+  }
 }
 
 .email-logo {
   height: 25px;
   margin-bottom: -4.9px;
   grid-row: 2/3;
+  padding-left: 20px;
+}
+@media (min-width: 768px) {
+  .email-logo {
+    padding-left: 0px;
+  }
 }
 
 .contact {

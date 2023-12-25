@@ -8,13 +8,24 @@
 }
 
 .icons {
-    display: grid;
-    grid-template-rows: 33% 33% 33%;
+    display: flex;
+    flex-direction: row;
+    // grid-template-rows: 33% 33% 33%;
+    padding-left: 30px;
+
+    @include md {
+        display: grid;
+        grid-template-rows: 33% 33% 33%;
+    }
 }
 
 .insta-logo {
     height: 20px;
     margin-bottom: -4.9px;
+
+    @include md {
+
+    }
 }
 
 .instas-logo {
@@ -25,12 +36,22 @@
     height: 20px;
     margin-bottom: -4.9px;
     grid-row: 3 / 4;
+    padding-left: 10px;
+
+    @include md {
+        padding-left: 0px;
+    }
 }
 
 .email-logo {
     height: 25px;
     margin-bottom: -4.9px;
     grid-row: 2 / 3;
+    padding-left: 20px;
+
+    @include md {
+        padding-left: 0px;
+    }
 }
 
 .contact {
