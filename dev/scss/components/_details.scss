@@ -12,6 +12,7 @@
     flex-direction: row;
     // grid-template-rows: 33% 33% 33%;
     padding-left: 30px;
+    align-items: center;
 
     @include md {
         display: grid;
@@ -24,21 +25,18 @@
     margin-bottom: -4.9px;
 
     @include md {
-
+        grid-row: 1 / 2;
     }
-}
-
-.instas-logo {
-    grid-row: 1 / 2;
 }
 
 .facebook-logo {
     height: 20px;
-    margin-bottom: -4.9px;
+
     grid-row: 3 / 4;
     padding-left: 10px;
 
     @include md {
+        margin-bottom: -4.9px;
         padding-left: 0px;
     }
 }
@@ -46,10 +44,11 @@
 .email-logo {
     height: 25px;
     margin-bottom: -4.9px;
-    grid-row: 2 / 3;
     padding-left: 20px;
 
     @include md {
+        margin-bottom: -8.5px;
+        grid-row: 2 / 3;
         padding-left: 0px;
     }
 }
