@@ -57,4 +57,12 @@
 .contact {
     display: grid;
     grid-template-columns: 10% 10% 80% 1fr;
+
+    @include lg {
+        grid-template-columns: 8% 10% 82% 1fr;
+    }
+
+    // @include lg {
+    //     grid-template-columns: 6% 10% 84% 1fr;
+    // }
 }

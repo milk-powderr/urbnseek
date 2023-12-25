@@ -1137,3 +1137,8 @@ hr {
   display: grid;
   grid-template-columns: 10% 10% 80% 1fr;
 }
+@media (min-width: 992px) {
+  .contact {
+    grid-template-columns: 8% 10% 82% 1fr;
+  }
+}
