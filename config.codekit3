@@ -1570,6 +1570,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/facebook-logo.png" : {
+      "ft" : 32768,
+      "iS" : 68461,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/facebook-logo.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/grapefruit.jpg" : {
       "ft" : 16384,
       "iS" : 2595987,
