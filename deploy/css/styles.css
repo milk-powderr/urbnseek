@@ -1088,11 +1088,6 @@ hr {
   background-color: #000000;
 }
 
-.icons {
-  display: flex;
-  flex-direction: row;
-}
-
 .insta {
   padding-right: 10px;
 }
@@ -1109,18 +1104,5 @@ hr {
 
 .contact {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 550px 550px 550px 1fr;
-}
-@media (min-width: 768px) {
-  .contact {
-    grid-template-columns: 140px 140px 1fr;
-    grid-template-rows: 140px 1fr;
-  }
-}
-@media (min-width: 992px) {
-  .contact {
-    grid-template-columns: 140px 140px 1fr;
-    grid-template-rows: 140px 1fr;
-  }
+  grid-template-columns: repeat(3, 1fr);
 }

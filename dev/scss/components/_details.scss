@@ -9,8 +9,11 @@
 }
 
 .icons {
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
+
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
 }
 
 .insta {
@@ -28,18 +31,21 @@
 }
 
 .contact {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 550px 550px 550px 1fr;
+    // display: grid;
+    // grid-template-columns: repeat(1, 1fr);
+    // grid-template-rows: 550px 550px 550px 1fr;
 
-    @include md {
-        grid-template-columns: 140px 140px 1fr;
-        grid-template-rows: 140px 1fr;
-    }
+    // @include md {
+    //     grid-template-columns: 140px 140px 1fr;
+    //     grid-template-rows: 140px 1fr;
+    // }
 
-    @include lg {
+    // @include lg {
         
-        grid-template-columns: 140px 140px 1fr;
-        grid-template-rows: 140px 1fr;
-    }
+    //     grid-template-columns: 140px 140px 1fr;
+    //     grid-template-rows: 140px 1fr;
+    // }
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
