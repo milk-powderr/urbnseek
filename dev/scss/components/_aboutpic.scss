@@ -22,7 +22,6 @@
     @include lg {
         width: 500px;
         float: right;
-
     }
 }
 
@@ -80,21 +79,6 @@ font-family: sans-serif;
     font-weight: 300;
     padding-left: 1.5px;
     padding-top: 12px;
-}
-
-.iconsp {
-    display: flex;
-    flex-direction: row;
-    padding-left: 2px;
-}
-
-.linkedinp {
-    padding-left: 2.5px;
-}
-
-.email-logop {
-    width: 30px;
-    margin-bottom: -13px;
 }
 
 hr {
