@@ -1149,6 +1149,7 @@ hr {
 @media (min-width: 992px) {
   .contact {
     grid-template-columns: 8% 10% 82% 1fr;
+    grid-template-rows: 80px 1fr;
   }
 }
 
