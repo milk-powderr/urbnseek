@@ -67,19 +67,30 @@
 }
 
 .subscribe-button {
-font-family: 'Alumni Sans', sans-serif;
-font-weight: 100;
-background-color: #212121;
-color: #646464;
-border-width: 0px;
-padding: 10px 20px 10px 20px;
+    font-family: 'Bangers';
+    font-weight: 100;
+    background-color: #212121;
+    color: #ffffff;
+    border-width: 0px;
+    padding: 10px 20px 10px 20px;
+
+    text-shadow: -1px 1px #00B3FF;
+
+    @include md {
+        text-shadow: -2px 2px #00B3FF;
+    }
 }
 
-.email-insert{
-background-color: #212121;
-color: #646464;
-border-width: 0px;
-padding-top: 10px;
-padding-bottom: 10px;
-width: 250px;
+.email-insert {
+    background-color: #212121;
+    color: #646464;
+    border-width: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 250px;
+}
+
+.placeholder {
+    padding-left: 20px;
 }
