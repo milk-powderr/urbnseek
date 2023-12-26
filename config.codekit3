@@ -2604,14 +2604,6 @@
       "oAP" : "\/dev\/components\/aboutpic.html",
       "oF" : 0
     },
-    "\/dev\/components\/desc-calendar.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-calendar.html",
-      "oF" : 0
-    },
     "\/dev\/components\/desc-current-event.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2822,21 +2814,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_desc-calendar.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-calendar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
