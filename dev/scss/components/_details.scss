@@ -55,8 +55,13 @@
 
 .contact {
     display: grid;
-    grid-template-columns: 10% 10% 80% 1fr;
-    grid-template-rows: 80px 200px 1fr;
+    grid-template-columns: 10% 90% 1fr;
+    grid-template-rows: 80px 100px 1fr;
+
+    @include md {
+        grid-template-columns: 10% 10% 80% 1fr;
+        grid-template-rows: 80px 200px 1fr;
+    }
 
     @include lg {
         grid-template-columns: 8% 10% 82% 1fr;
@@ -64,8 +69,13 @@
 }
 
 .subscribe {
-    grid-column: 3 / 4;
+    grid-column: 1 / 2;
     grid-row: 2 / 3;
+
+    @include md {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
 }
 
 .subscribe-button {
