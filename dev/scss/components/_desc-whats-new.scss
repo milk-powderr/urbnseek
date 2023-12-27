@@ -1,11 +1,12 @@
-.front-works {
-    background-image: url('../img/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-}
+// .front-works {
+//     background-image: url('../img/background.jpg');
+//     background-repeat: no-repeat;
+//     background-attachment: fixed; 
+//     background-position: center;
+//     background-size: cover;
+//     height: 100%;
+// }
+
 
 .magazine-title {
     padding-top: 20px;
@@ -109,4 +110,16 @@
     padding-left: 28px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.whats-new-title {
+    font-size: 60px;
+    color: #000000;
+    text-shadow: -1px 1px #FF4B00;
+    font-family: 'Bangers';
+    padding-left: 20px;
+
+    @include md {
+        text-shadow: -2px 2px #FF4B00;
+    }
 }

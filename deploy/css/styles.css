@@ -448,11 +448,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .current_event {
-  background-image: url("../img/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
   padding-bottom: 100px;
   overflow: hidden;
 }
@@ -572,15 +567,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Bangers";
 }
 
-.front-works {
-  background-image: url("../img/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-}
-
 .magazine-title {
   padding-top: 20px;
   font-size: 50px;
@@ -686,6 +672,19 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 28px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.whats-new-title {
+  font-size: 60px;
+  color: #000000;
+  text-shadow: -1px 1px #FF4B00;
+  font-family: "Bangers";
+  padding-left: 20px;
+}
+@media (min-width: 768px) {
+  .whats-new-title {
+    text-shadow: -2px 2px #FF4B00;
+  }
 }
 
 .title {
@@ -938,6 +937,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   padding-left: 1.5px;
   padding-top: 12px;
+}
+
+.iconsp {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2px;
+}
+
+.linkedinp {
+  padding-left: 2.5px;
+}
+
+.email-logop {
+  width: 30px;
+  margin-bottom: -13px;
 }
 
 hr {
