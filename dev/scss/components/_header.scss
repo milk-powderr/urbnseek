@@ -2,12 +2,14 @@
     overflow: hidden;
     padding-top: 4%;
     padding-left: 15px;
-    display: flex;
     align-items: center;
     padding-bottom: 4%;
-    justify-content: space-between;
-    // margin-right: 150px;
-    background-color: #000000;
+  //  justify-content: space-between;
+
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 50px 100px 1fr;
 
     @include md {
         padding-top: 1%;
@@ -19,23 +21,15 @@
     @include lg {}
 }
 
-.new_page-block {
-    font-family: 'Bangers', sans-serif;
-    display: flex;
-margin-right: 18%;
-
-    @include md {}
-
-    @include lg {}
-}
-
-.new_page1 {
-    color: $black;
-    font-size: 29px;
+.event-link {
+    color: #000000;
+    font-size: 90px;
     text-decoration: none;
-    padding-right: 40%;
-    flex-direction: row;
-    color: #ffffff;
+   // padding-right: 40%;
+  //  flex-direction: row;
+ //   color: #000000;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
     &:hover {
 
         text-shadow: -1px 1px #FF3AC0;
@@ -52,36 +46,12 @@ margin-right: 18%;
     @include lg {}
 }
 
-
-.new_page2 {
-    color: $black;
-    font-size: 29px;
-    text-decoration: none;
-    padding-right: 40%;
-    flex-direction: row;
-
-    &:hover {
-
-        text-shadow: -1px 1px #F2FF00;
-
-        @include md {
-            text-shadow: -2px 2px #F2FF00;
-        }
-    }
-
-    @include md {
-        font-size: 39px;
-    }
-
-    @include lg {}
-}
-
-.new_page3 {
+.volunteer-link {
     color: $black;
     font-size: 29px;
     text-decoration: none;
     flex-direction: row;
-    color: #ffffff;
+    color: #000000;
 
     &:hover {
 
@@ -99,9 +69,10 @@ margin-right: 18%;
     @include lg {}
 }
 
-.header_link {
+.home-link {
     font-family: 'Poppins', 'sans-serif';
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
+    font-weight: 500;
 }

@@ -316,11 +316,11 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   padding-top: 4%;
   padding-left: 15px;
-  display: flex;
   align-items: center;
   padding-bottom: 4%;
-  justify-content: space-between;
-  background-color: #000000;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 100px 1fr;
 }
 @media (min-width: 768px) {
   .header {
@@ -329,77 +329,52 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1%;
   }
 }
-.new_page-block {
-  font-family: "Bangers", sans-serif;
-  display: flex;
-  margin-right: 18%;
-}
-.new_page1 {
+.event-link {
   color: #000000;
-  font-size: 29px;
+  font-size: 90px;
   text-decoration: none;
-  padding-right: 40%;
-  flex-direction: row;
-  color: #ffffff;
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
-.new_page1:hover {
+.event-link:hover {
   text-shadow: -1px 1px #FF3AC0;
 }
 @media (min-width: 768px) {
-  .new_page1:hover {
+  .event-link:hover {
     text-shadow: -2px 2px #FF3AC0;
   }
 }
 @media (min-width: 768px) {
-  .new_page1 {
+  .event-link {
     font-size: 39px;
   }
 }
-.new_page2 {
-  color: #000000;
-  font-size: 29px;
-  text-decoration: none;
-  padding-right: 40%;
-  flex-direction: row;
-}
-.new_page2:hover {
-  text-shadow: -1px 1px #F2FF00;
-}
-@media (min-width: 768px) {
-  .new_page2:hover {
-    text-shadow: -2px 2px #F2FF00;
-  }
-}
-@media (min-width: 768px) {
-  .new_page2 {
-    font-size: 39px;
-  }
-}
-.new_page3 {
+.volunteer-link {
   color: #000000;
   font-size: 29px;
   text-decoration: none;
   flex-direction: row;
-  color: #ffffff;
+  color: #000000;
 }
-.new_page3:hover {
+.volunteer-link:hover {
   text-shadow: -1px 1px #00FFFE;
 }
 @media (min-width: 768px) {
-  .new_page3:hover {
+  .volunteer-link:hover {
     text-shadow: -2px 2px #00FFFE;
   }
 }
 @media (min-width: 768px) {
-  .new_page3 {
+  .volunteer-link {
     font-size: 39px;
   }
 }
-.header_link {
+.home-link {
   font-family: "Poppins", "sans-serif";
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
+  font-weight: 500;
 }
 
 .footer-block {
