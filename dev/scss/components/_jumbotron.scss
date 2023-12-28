@@ -1,13 +1,11 @@
 .footer-block {
-
   overflow: hidden;
-  background-color: #F2FF00;
+  background-color: #fffc00;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 20px;
   text-align: center;
-	font-family: 'Alumni Sans', sans-serif;
   gap: 10px;
   display: flex;
   flex-direction: row;
@@ -15,26 +13,21 @@
   align-items: center;
   width: 100%;
   padding-top: 9px;
-
-  //position: fixed;
-  bottom: 0;
+  position: fixed;
+  top: 0;
 
   @include md {
-    font-size: 11px;
-    line-height: 20px;
-    font-weight: 400;
-    gap: 10px;
+
   }
 }
 
 .footer_word {
-
   color: #000000;
   font-size: 20px;
-  font-family: 'Alumni Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
   animation: marquee 1.5s infinite linear;
   flex-shrink: 0;
-  font-weight: 100;
+  font-weight: 300;
 
   @keyframes scrolling {
     0% {

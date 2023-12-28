@@ -320,6 +320,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 4%;
   display: grid;
   margin-right: 15px;
+  margin-top: 40px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 50px 80px 80px 1fr;
 }
@@ -356,11 +357,11 @@ h1, h2, h3, h4, h5, h6 {
   grid-row: 2/3;
 }
 .event-link:hover {
-  text-shadow: -3px 3px #FF3AC0;
+  text-shadow: -3px 3px #fc00ff;
 }
 @media (min-width: 768px) {
   .event-link:hover {
-    text-shadow: -3px 3px #FF3AC0;
+    text-shadow: -3px 3px #fc00ff;
   }
 }
 @media (min-width: 768px) {
@@ -379,11 +380,11 @@ h1, h2, h3, h4, h5, h6 {
   grid-row: 3/4;
 }
 .volunteer-link:hover {
-  text-shadow: -3px 3px #00FFFE;
+  text-shadow: -3px 3px #00fffc;
 }
 @media (min-width: 768px) {
   .volunteer-link:hover {
-    text-shadow: -3px 3px #00FFFE;
+    text-shadow: -3px 3px #00fffc;
   }
 }
 @media (min-width: 768px) {
@@ -393,32 +394,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .glitch {
   font-family: "Poppins", "sans-serif";
-  font-size: 25px;
+  font-size: 40px;
   text-decoration: none;
   color: #000000;
-  position: relative;
   text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #fffc00;
   animation: glitch 725ms infinite;
-}
-
-.glitch span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.glitch span:first-child {
-  animation: glitch 500ms infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
-  transform: translate(-0.04em, -0.03em);
-  opacity: 0.75;
-}
-
-.glitch span:last-child {
-  animation: glitch 375ms infinite;
-  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
-  transform: translate(0.04em, 0.03em);
-  opacity: 0.75;
 }
 
 @keyframes glitch {
@@ -446,13 +426,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer-block {
   overflow: hidden;
-  background-color: #F2FF00;
+  background-color: #fffc00;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 20px;
   text-align: center;
-  font-family: "Alumni Sans", sans-serif;
   gap: 10px;
   display: flex;
   flex-direction: row;
@@ -460,24 +439,16 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   width: 100%;
   padding-top: 9px;
-  bottom: 0;
+  position: fixed;
+  top: 0;
 }
-@media (min-width: 768px) {
-  .footer-block {
-    font-size: 11px;
-    line-height: 20px;
-    font-weight: 400;
-    gap: 10px;
-  }
-}
-
 .footer_word {
   color: #000000;
   font-size: 20px;
-  font-family: "Alumni Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   animation: marquee 1.5s infinite linear;
   flex-shrink: 0;
-  font-weight: 100;
+  font-weight: 300;
 }
 @keyframes scrolling {
   0% {
