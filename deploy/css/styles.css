@@ -319,6 +319,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   padding-bottom: 4%;
   display: grid;
+  margin-right: 15px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 50px 100px 1fr;
 }
@@ -327,11 +328,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1%;
     padding-left: 26px;
     padding-bottom: 1%;
+    margin-right: 26px;
   }
 }
 .event-link {
   color: #000000;
-  font-size: 90px;
+  font-size: 50px;
   text-decoration: none;
   grid-column: 1/2;
   grid-row: 2/3;
@@ -351,10 +353,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .volunteer-link {
   color: #000000;
-  font-size: 29px;
+  font-size: 50px;
   text-decoration: none;
   flex-direction: row;
   color: #000000;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 .volunteer-link:hover {
   text-shadow: -1px 1px #00FFFE;

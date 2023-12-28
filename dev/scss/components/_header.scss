@@ -4,18 +4,16 @@
     padding-left: 15px;
     align-items: center;
     padding-bottom: 4%;
-  //  justify-content: space-between;
-
-
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 50px 100px 1fr;
+    display: grid;
+    margin-right: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 100px 1fr;
 
     @include md {
         padding-top: 1%;
         padding-left: 26px;
         padding-bottom: 1%;
-        // margin-right: 200px;
+        margin-right: 26px;
     }
 
     @include lg {}
@@ -23,13 +21,11 @@
 
 .event-link {
     color: #000000;
-    font-size: 90px;
+    font-size: 50px;
     text-decoration: none;
-   // padding-right: 40%;
-  //  flex-direction: row;
- //   color: #000000;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+
     &:hover {
 
         text-shadow: -1px 1px #FF3AC0;
@@ -48,10 +44,12 @@
 
 .volunteer-link {
     color: $black;
-    font-size: 29px;
+    font-size: 50px;
     text-decoration: none;
     flex-direction: row;
     color: #000000;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 
     &:hover {
 
