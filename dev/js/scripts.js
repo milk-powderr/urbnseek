@@ -7,10 +7,24 @@ function eventcolor(){
 
 var tl =  gsap.timeline()
 
-gsap.set(".event-link", { alpha: 1})
+// gsap.set(".event-link", { alpha: 1})
+gsap.set(".cross", {rotation: 0})
 ;
 
-tl.to(".event-link",{ alpha: 1, delay: 0.5}, 0)
+var eventcolor = document.querySelector(".cross");
+
+eventcolor.addEventListener("click", function () {
+  mainTL.play();
+})
+
+eventcolor.addEventListener("click", function () {
+  mainTL.reverse();
+})
+
+
+tl.to(".cross", {rotation: 90})
+// to(".event-link",{ alpha: 1, delay: 0.5}, 0)
+
 return tl;
 }
 
