@@ -22,7 +22,7 @@ eventcolor.addEventListener("click", function () {
 })
 
 
-tl.to(".cross", {rotation: 90})
+tl.to(".cross", {rotation: 45}, "trigger")
 // to(".event-link",{ alpha: 1, delay: 0.5}, 0)
 
 return tl;
