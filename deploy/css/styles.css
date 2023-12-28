@@ -328,10 +328,17 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-rows: 50px 80px 1fr;
     padding-top: 1%;
     padding-left: 26px;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     margin-right: 26px;
   }
 }
+@media (min-width: 992px) {
+  .header {
+    grid-template-rows: 50px 100px 1fr;
+    padding-bottom: 4%;
+  }
+}
+
 .home-link {
   font-family: "Poppins", "sans-serif";
   font-size: 25px;
@@ -344,21 +351,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
   font-size: 400%;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   grid-column: 1/2;
   grid-row: 2/3;
 }
 .event-link:hover {
-  text-shadow: -1px 1px #FF3AC0;
+  text-shadow: -3px 3px #FF3AC0;
 }
 @media (min-width: 768px) {
   .event-link:hover {
-    text-shadow: -2px 2px #FF3AC0;
+    text-shadow: -3px 3px #FF3AC0;
   }
 }
 @media (min-width: 768px) {
   .event-link {
-    font-size: 600%;
+    font-size: 700%;
   }
 }
 .volunteer-link {
@@ -367,31 +374,28 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   flex-direction: row;
   color: #000000;
-  font-weight: 400;
+  font-weight: 500;
   grid-column: 1/2;
   grid-row: 3/4;
 }
 .volunteer-link:hover {
-  text-shadow: -1px 1px #00FFFE;
+  text-shadow: -3px 3px #00FFFE;
 }
 @media (min-width: 768px) {
   .volunteer-link:hover {
-    text-shadow: -2px 2px #00FFFE;
+    text-shadow: -3px 3px #00FFFE;
   }
 }
 @media (min-width: 768px) {
   .volunteer-link {
-    font-size: 600%;
+    font-size: 700%;
+  }
+}
+@media (min-width: 992px) {
+  .volunteer-link {
     grid-column: 2/3;
     grid-row: 2/3;
   }
-}
-.event-box {
-  width: 300px;
-  height: 400px;
-  background-color: #b63d3d;
-  border-radius: 30px;
-  justify-self: center;
 }
 
 .footer-block {

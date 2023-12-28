@@ -13,11 +13,14 @@
         grid-template-rows: 50px 80px 1fr;
         padding-top: 1%;
         padding-left: 26px;
-        padding-bottom: 1%;
+        padding-bottom: 3%;
         margin-right: 26px;
     }
 
-    @include lg {}
+    @include lg {
+        grid-template-rows: 50px 100px 1fr;
+        padding-bottom: 4%;
+    }
 }
 
 .home-link {
@@ -32,24 +35,26 @@
     color: #000000;
     font-size: 400%;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 
     &:hover {
 
-        text-shadow: -1px 1px #FF3AC0;
+        text-shadow: -3px 3px #FF3AC0;
 
         @include md {
-            text-shadow: -2px 2px #FF3AC0;
+            text-shadow: -3px 3px #FF3AC0;
         }
     }
 
     @include md {
-        font-size: 600%;
+        font-size: 700%;
     }
 
-    @include lg {}
+    @include lg {
+        // font-size: 700%;
+    }
 }
 
 .volunteer-link {
@@ -58,34 +63,26 @@
     text-decoration: none;
     flex-direction: row;
     color: #000000;
-    font-weight: 400;
+    font-weight: 500;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
 
     &:hover {
 
-        text-shadow: -1px 1px #00FFFE;
+        text-shadow: -3px 3px #00FFFE;
 
         @include md {
-            text-shadow: -2px 2px #00FFFE;
+            text-shadow: -3px 3px #00FFFE;
         }
     }
 
     @include md {
-        font-size: 600%;
+        font-size: 700%;
+    }
+
+    @include lg {
+        // font-size: 700%;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
-
-    @include lg {}
-}
-
-.event-box {
-    width: 300px;
-    height: 400px;
-    background-color: #b63d3d;
-    border-radius: 30px;
-    justify-self: center;
-    // grid-column: 2 / 3;
-    // grid-row: 2 / 3;
 }
