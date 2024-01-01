@@ -479,124 +479,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.current_event {
-  padding-bottom: 100px;
-  overflow: hidden;
-}
-@media (min-width: 992px) {
-  .current_event {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.big-logo {
+  padding-top: 90px;
 }
 
-.current_event_picture {
-  object-fit: cover;
-  width: 350px;
-}
-@media (min-width: 768px) {
-  .current_event_picture {
-    width: 450px;
-    float: none;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media (min-width: 992px) {
-  .current_event_picture {
-    width: 600px;
-    float: right;
-  }
-}
-
-.current_event_picture_panels {
-  padding-top: 80px;
-  margin-left: 30px;
-}
-@media (min-width: 768px) {
-  .current_event_picture_panels {
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
-  }
-}
-@media (min-width: 992px) {
-  .current_event_picture_panels {
-    padding-top: 150px;
-    margin-left: 110px;
-  }
-}
-
-.current_event_details_section {
+.big-logo-picture {
   display: block;
-  list-style-type: none;
-  font-size: 40px;
-  padding-top: 0px;
-  padding-left: 30px;
-  width: 80%;
-}
-@media (min-width: 768px) {
-  .current_event_details_section {
-    font-size: 50px;
-    width: 90%;
-    align-items: center;
-  }
-}
-@media (min-width: 992px) {
-  .current_event_details_section {
-    font-size: 60px;
-    width: 80%;
-  }
-}
-
-.current_event_name {
-  color: #000000;
-  text-shadow: -1px 1px #FF4B00;
-  font-family: "Bangers";
-}
-@media (min-width: 768px) {
-  .current_event_name {
-    text-shadow: -2px 2px #FF4B00;
-  }
-}
-
-.current_event_details {
-  font-size: 22px;
-  font-weight: 300;
-  padding-left: 1.5px;
-  padding-top: 12px;
-  font-family: "Alumni Sans", sans-serif;
-}
-
-.iconsp {
-  display: flex;
-  flex-direction: row;
-  padding-left: 2px;
-}
-
-.linkedinp {
-  padding-left: 2.5px;
-}
-
-.email-logop {
-  width: 30px;
-  margin-bottom: -13px;
-}
-
-.register-button {
-  color: #000000;
-  transition: 0.25s;
-  padding: 10px 20px;
-  border-radius: 30px;
-  border: solid 2px #000000;
-  width: fit-content;
-  font-size: 20px;
-}
-
-.regib {
-  text-decoration: none;
-  color: #000000;
-  font-family: "Bangers";
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .magazine-title {
