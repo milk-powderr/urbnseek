@@ -30,6 +30,12 @@
         width: 70%;
         font-weight: 300;
     }
+
+    @include lg {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 300;
+    }
 }
 
 #text-over {
@@ -38,5 +44,40 @@
 
     @include md {
         text-shadow: -2px 2px #000000;
+    }
+}
+
+.cultivating {
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    padding-left: 60px;
+
+    @include md {
+        padding-top: 140px;
+        font-size: 90px;
+    }
+}
+
+.cultivating-2 {
+    padding-top: 10px;
+    padding-left: 60px;
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    width: 90%;
+
+    @include md {
+        // padding-left: 180px;
+        font-size: 30px;
+        width: 90%;
+        font-weight: 300;
+    }
+
+    @include lg {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 300;
     }
 }
