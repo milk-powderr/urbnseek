@@ -21,6 +21,7 @@
   @include lg {
     grid-template-rows: 50px 100px 1fr;
     padding-bottom: 4%;
+    // grid-template-columns: (90% 10%);
   }
 }
 
@@ -152,21 +153,11 @@
 }
 
 .cross {
-  grid-column: 3 / 3;
+  grid-column: 2 / 3;
   grid-row: 1 / 2;
-  margin-right: 30px;
-  background: #000000;
-  height: 50px;
   position: relative;
-  width: 5px;
-}
-
-.cross:after {
-  background: #000000;
-  content: "";
-  height: 5px;
-  left: -22.5px;
-  position: absolute;
-  top: 22.5px;
-  width: 50px;
+  width: 40px;
+  justify-self: end;
+  // align-self: start;
+  // position: absolute;
 }
