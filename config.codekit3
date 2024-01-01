@@ -233,13 +233,13 @@
       "oAP" : "\/dev\/components\/desc-warmers.html",
       "oF" : 0
     },
-    "\/dev\/components\/desc-whats-new.kit" : {
+    "\/dev\/components\/desc-what-are-we.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/deploy\/work.html",
-      "oF" : 3
+      "oAP" : "\/dev\/components\/desc-what-are-we.html",
+      "oF" : 1
     },
     "\/dev\/components\/details.kit" : {
       "cB" : 0,
@@ -466,7 +466,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_desc-whats-new.scss" : {
+    "\/dev\/scss\/components\/_desc-what-are-we.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -475,7 +475,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-whats-new.css",
+      "oAP" : "\/dev\/scss\/components\/_desc-what-are-we.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

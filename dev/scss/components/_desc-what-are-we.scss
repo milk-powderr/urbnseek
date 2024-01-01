@@ -1,0 +1,116 @@
+// .magazine-title {
+//     padding-top: 20px;
+//     font-size: 50px;
+//     font-weight: 500;
+// }
+
+// .magazine-title-2 {
+//     font-size: 30px;
+// }
+
+// .box {
+//     width: 300px;
+//     height: 400px;
+//     background-color: #ffffff;
+//     border-radius: 30px;
+//     box-shadow: 5px 5px 5px #00000071;
+//     justify-self: center;
+// }
+
+// .boxes {
+//     display: grid;
+//     grid-template-columns: repeat(1, 1fr);
+//     grid-template-rows: 550px 550px 550px 1fr;
+
+
+//     @include md {
+//         grid-template-columns: repeat(2, 1fr);
+//         grid-template-rows: 550px 550px 1fr;
+//     }
+
+//     @include lg {
+//         grid-template-columns: repeat(3, 1fr);
+//         grid-template-rows: 550px 1fr;
+//     }
+// }
+
+// .whats_new_picture_panels img {
+//     object-fit: contain;
+//     height: 100%;
+//     width: 100%;
+//     border-radius: 30px 30px 0px 0px;
+// }
+
+// .event_name {
+//     font-size: 25px;
+//     text-decoration: none;
+//     text-shadow: -1px 1px #F2FF00;
+//     padding-bottom: 9px;
+//     grid-column: 1 / 3;
+//     grid-row: 1 / 2;
+// }
+
+// .event_date {
+//     font-size: 20px;
+//     text-decoration: none;
+//     color: #000000;
+//     text-shadow: -1px 1px #F2FF00;
+//     grid-column: 1 / 2;
+//     grid-row: 3 / 4;
+
+//     @include md {
+//         text-shadow: -2px 2px #F2FF00;
+//     }
+// }
+
+// .event_details {
+//     font-size: 15px;
+//     text-decoration: none;
+//     font-family: 'Alumni Sans', sans-serif;
+//     color: #000000;
+//     grid-column: 2 / 3;
+//     grid-row: 2 / 3;
+// }
+
+// .event_location {
+//     font-size: 15px;
+//     text-decoration: none;
+//     font-family: 'Alumni Sans', sans-serif;
+//     color: #000000;
+//     grid-column: 2 / 3;
+//     grid-row: 3 / 4;
+// }
+
+// .date-number {
+//     font-family: 'Bangers';
+//     font-size: 50px;
+//     text-decoration: none;
+//     color: #000000;
+//     text-shadow: -1px 1px #F2FF00;
+//     grid-column: 1 / 2;
+//     grid-row: 2 / 3;
+
+//     @include md {
+//         text-shadow: -2px 2px #F2FF00;
+//     }
+// }
+
+// .whats_new_words {
+//     list-style: none;
+//     padding-left: 28px;
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+// }
+
+// .whats-new-title {
+//     font-size: 60px;
+//     color: #000000;
+//     text-shadow: -1px 1px #FF4B00;
+//     font-family: 'Bangers';
+//     padding-left: 20px;
+
+//     @include md {
+//         text-shadow: -2px 2px #FF4B00;
+//     }
+// }
+
