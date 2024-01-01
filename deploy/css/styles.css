@@ -491,6 +491,17 @@ h1, h2, h3, h4, h5, h6 {
   width: 50%;
 }
 
+.about-us {
+  padding-top: 150px;
+}
+
+.what-are-we {
+  font-size: 150px;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+
 .title {
   padding-top: 50px;
   font-size: 60px;
