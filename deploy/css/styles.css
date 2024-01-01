@@ -431,6 +431,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   justify-self: end;
 }
+@media (min-width: 768px) {
+  .cross {
+    width: 45px;
+  }
+}
 
 .footer-block {
   overflow: hidden;
@@ -469,6 +474,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .big-logo {
   padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #A200FF;
+  background-image: linear-gradient(to bottom, #ffffff 40%, rgba(0, 0, 0, 0) 20%);
 }
 
 .big-logo-picture {

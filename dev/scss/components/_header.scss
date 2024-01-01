@@ -158,6 +158,8 @@
   position: relative;
   width: 40px;
   justify-self: end;
-  // align-self: start;
-  // position: absolute;
+
+  @include md {
+    width: 45px;
+  }
 }

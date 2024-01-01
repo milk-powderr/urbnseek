@@ -209,13 +209,13 @@
       "oAP" : "\/dev\/components\/aboutpic.html",
       "oF" : 0
     },
-    "\/dev\/components\/desc-current-event.kit" : {
+    "\/dev\/components\/desc-center-logo.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/components\/desc-current-event.html",
-      "oF" : 0
+      "oAP" : "\/dev\/components\/desc-center-logo.html",
+      "oF" : 1
     },
     "\/dev\/components\/desc-sanrio.kit" : {
       "cB" : 0,
@@ -421,7 +421,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_desc-current-event.scss" : {
+    "\/dev\/scss\/components\/_desc-center-logo.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -430,7 +430,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_desc-current-event.css",
+      "oAP" : "\/dev\/scss\/components\/_desc-center-logo.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
