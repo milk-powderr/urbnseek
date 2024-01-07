@@ -57,19 +57,14 @@
 
 .cultivating {
     padding-top: 50px;
-    padding-right: 20px;
     padding-bottom: 10px;
     font-size: 25px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
-    // margin-left: 20%;
-    text-align: right;
-  //  padding-right: 5%;
-    width: 400px;
-    margin-right: 90px;
+    width: 75%;
+    margin-left: 20%;
 
     @include md {
-        // padding-left: 140px;
         padding-top: 140px;
         font-size: 90px;
         padding-right: 30px;
@@ -110,7 +105,6 @@
     font-size: 25px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
-    // margin-left: 37%;
 
     @include md {
         padding-left: 140px;
@@ -148,16 +142,13 @@
 
 .power {
     padding-top: 50px;
-    padding-right: 20px;
     padding-bottom: 10px;
     font-size: 25px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
-    // margin-left: 20%;
-    text-align: right;
-  //  padding-right: 5%;
-    width: 400px;
-  //  margin-right: 90px;
+    width: 300px;
+    width: 75%;
+    margin-left: 20%;
 
     @include md {
         padding-left: 140px;
@@ -225,7 +216,6 @@
     @include md {
         padding-left: 140px;
         font-size: 30px;
-
         font-weight: 300;
     }
 
@@ -238,15 +228,12 @@
 
 .positive {
     padding-top: 50px;
-    padding-right: 20px;
     padding-bottom: 10px;
     font-size: 25px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
+    width: 75%;
     margin-left: 20%;
-    text-align: right;
-    padding-right: 5%;
-    padding-right: 5%;
 
     @include md {
         padding-left: 140px;

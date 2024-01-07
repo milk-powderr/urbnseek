@@ -557,14 +557,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .cultivating {
   padding-top: 50px;
-  padding-right: 20px;
   padding-bottom: 10px;
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  text-align: right;
-  width: 400px;
-  margin-right: 90px;
+  width: 75%;
+  margin-left: 20%;
 }
 @media (min-width: 768px) {
   .cultivating {
@@ -647,13 +645,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .power {
   padding-top: 50px;
-  padding-right: 20px;
   padding-bottom: 10px;
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  text-align: right;
-  width: 400px;
+  width: 300px;
+  width: 75%;
+  margin-left: 20%;
 }
 @media (min-width: 768px) {
   .power {
@@ -736,15 +734,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .positive {
   padding-top: 50px;
-  padding-right: 20px;
   padding-bottom: 10px;
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
+  width: 75%;
   margin-left: 20%;
-  text-align: right;
-  padding-right: 5%;
-  padding-right: 5%;
 }
 @media (min-width: 768px) {
   .positive {
