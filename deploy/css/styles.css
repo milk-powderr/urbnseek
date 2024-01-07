@@ -534,6 +534,7 @@ h1, h2, h3, h4, h5, h6 {
   .what-are-we-2 {
     font-size: 30px;
     font-weight: 300;
+    box-shadow: 20px 20px #00FFFE;
   }
 }
 @media (min-width: 992px) {
@@ -567,7 +568,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .cultivating {
-    padding-left: 140px;
     padding-top: 140px;
     font-size: 90px;
     padding-right: 30px;
@@ -588,9 +588,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .cultivating-2 {
-    padding-left: 140px;
+    padding: 25px 25px 25px 25px;
     font-size: 30px;
-    width: 90%;
+    box-shadow: 20px 20px #FF4B00;
     font-weight: 300;
   }
 }
@@ -634,7 +634,6 @@ h1, h2, h3, h4, h5, h6 {
   .change-2 {
     padding-left: 140px;
     font-size: 30px;
-    width: 90%;
     font-weight: 300;
   }
 }
@@ -680,9 +679,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .power-2 {
-    padding-left: 140px;
+    padding: 25px 25px 25px 25px;
     font-size: 30px;
-    width: 90%;
     font-weight: 300;
   }
 }
@@ -726,7 +724,6 @@ h1, h2, h3, h4, h5, h6 {
   .fostering-2 {
     padding-left: 140px;
     font-size: 30px;
-    width: 90%;
     font-weight: 300;
   }
 }
@@ -773,9 +770,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .positive-2 {
-    padding-left: 140px;
+    padding: 25px 25px 25px 25px;
     font-size: 30px;
-    width: 90%;
     font-weight: 300;
   }
 }
