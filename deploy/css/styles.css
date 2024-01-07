@@ -567,7 +567,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .cultivating {
     padding-top: 140px;
-    font-size: 90px;
+    font-size: 60px;
     padding-right: 30px;
   }
 }
@@ -612,7 +612,7 @@ h1, h2, h3, h4, h5, h6 {
   .change {
     padding-left: 140px;
     padding-top: 140px;
-    font-size: 90px;
+    font-size: 60px;
     padding-right: 30px;
   }
 }
@@ -657,7 +657,7 @@ h1, h2, h3, h4, h5, h6 {
   .power {
     padding-left: 140px;
     padding-top: 140px;
-    font-size: 90px;
+    font-size: 60px;
     padding-right: 30px;
   }
 }
@@ -701,7 +701,7 @@ h1, h2, h3, h4, h5, h6 {
   .fostering {
     padding-left: 140px;
     padding-top: 140px;
-    font-size: 90px;
+    font-size: 60px;
     padding-right: 30px;
   }
 }
@@ -745,7 +745,7 @@ h1, h2, h3, h4, h5, h6 {
   .positive {
     padding-left: 140px;
     padding-top: 140px;
-    font-size: 90px;
+    font-size: 60px;
     padding-right: 30px;
   }
 }
