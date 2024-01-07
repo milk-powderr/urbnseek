@@ -546,12 +546,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #text-over {
-  text-shadow: -1px 1px #000000;
-  color: #00FFFE;
+  text-shadow: -1px 1px #00FFFE;
+  color: #000000;
 }
 @media (min-width: 768px) {
   #text-over {
-    text-shadow: -2px 2px #000000;
+    text-shadow: -2px 2px #00FFFE;
   }
 }
 
@@ -652,9 +652,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  margin-left: 20%;
   text-align: right;
-  padding-right: 5%;
+  width: 400px;
 }
 @media (min-width: 768px) {
   .power {
