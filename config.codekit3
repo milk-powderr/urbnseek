@@ -50,6 +50,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/email-logo.png" : {
+      "ft" : 32768,
+      "iS" : 17070,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/email-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/facebook-logo.png" : {
+      "ft" : 32768,
+      "iS" : 9278,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/facebook-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/insta_logo.png" : {
       "ft" : 32768,
       "iS" : 90802,
