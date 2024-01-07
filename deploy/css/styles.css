@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 60%;
+  width: 75%;
   box-shadow: 10px 10px #00FFFE;
   border-color: #000000;
   border: 2px solid;
@@ -555,7 +555,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  margin-left: 37%;
+  margin-left: 20%;
+  text-align: right;
+  padding-right: 5%;
 }
 @media (min-width: 768px) {
   .cultivating {
@@ -572,9 +574,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 60%;
+  width: 75%;
   box-shadow: -10px 10px #FF4B00;
-  margin-left: 37%;
+  margin-left: 20%;
   border-color: #000000;
   border: 2px solid;
 }
@@ -589,7 +591,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .cultivating-2 {
     font-size: 30px;
-    width: 60%;
+    width: 75%;
     font-weight: 300;
   }
 }
@@ -617,7 +619,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 60%;
+  width: 75%;
   box-shadow: 10px 10px #00B3FF;
   border-color: #000000;
   border: 2px solid;
@@ -633,7 +635,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .change-2 {
     font-size: 30px;
-    width: 60%;
+    width: 75%;
     font-weight: 300;
   }
 }
@@ -645,7 +647,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  margin-left: 37%;
+  margin-left: 20%;
+  text-align: right;
+  padding-right: 5%;
 }
 @media (min-width: 768px) {
   .power {
@@ -662,9 +666,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 60%;
+  width: 75%;
   box-shadow: -10px 10px #F2FF00;
-  margin-left: 37%;
+  margin-left: 20%;
   border-color: #000000;
   border: 2px solid;
 }
@@ -679,7 +683,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .power-2 {
     font-size: 30px;
-    width: 60%;
+    width: 75%;
     font-weight: 300;
   }
 }
@@ -707,7 +711,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 60%;
+  width: 75%;
   box-shadow: 10px 10px #43E458;
   border-color: #000000;
   border: 2px solid;
@@ -723,7 +727,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .fostering-2 {
     font-size: 30px;
-    width: 60%;
+    width: 75%;
     font-weight: 300;
   }
 }
@@ -735,7 +739,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  margin-left: 37%;
+  margin-left: 20%;
+  text-align: right;
+  padding-right: 5%;
+  padding-right: 5%;
 }
 @media (min-width: 768px) {
   .positive {
@@ -752,9 +759,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 60%;
+  width: 75%;
   box-shadow: -10px 10px #FF3AC0;
-  margin-left: 37%;
+  margin-left: 20%;
   border-color: #000000;
   border: 2px solid;
 }
@@ -769,7 +776,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .positive-2 {
     font-size: 30px;
-    width: 60%;
+    width: 75%;
     font-weight: 300;
   }
 }
