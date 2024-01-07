@@ -494,6 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 .about-us {
   padding-top: 100px;
   padding-left: 20px;
+  padding-bottom: 30px;
 }
 @media (min-width: 768px) {
   .about-us {
@@ -518,20 +519,22 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 80%;
+  width: 60%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  box-shadow: 10px 10px #00FFFE;
 }
 @media (min-width: 768px) {
   .what-are-we-2 {
     font-size: 30px;
-    width: 70%;
     font-weight: 300;
   }
 }
 @media (min-width: 992px) {
   .what-are-we-2 {
     font-size: 30px;
-    width: 60%;
     font-weight: 300;
+    padding-bottom: 80px;
   }
 }
 
@@ -546,29 +549,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cultivating {
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-right: 20px;
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  padding-left: 60px;
-  text-align: right;
+  margin-left: 30%;
 }
 @media (min-width: 768px) {
   .cultivating {
     padding-left: 140px;
     padding-top: 140px;
     font-size: 90px;
+    padding-right: 30px;
   }
 }
 
 .cultivating-2 {
+  align-items: right;
   padding-top: 10px;
-  padding-left: 60px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
-  width: 90%;
-  text-align: right;
+  width: 60%;
+  box-shadow: -10px 10px #FF4B00;
+  margin-left: 30%;
 }
 @media (min-width: 768px) {
   .cultivating-2 {
