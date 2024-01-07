@@ -27,7 +27,7 @@
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
     width: 60%;
-  //  padding-bottom: 20px;
+    //  padding-bottom: 20px;
     box-shadow: 10px 10px #00FFFE;
     border-color: #000000;
     border: 2px solid;
@@ -64,7 +64,7 @@
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
     margin-left: 30%;
-   // text-align: right;
+    // text-align: right;
 
     @include md {
         padding-left: 140px;
@@ -142,6 +142,7 @@
         font-weight: 300;
     }
 }
+
 .power {
     padding-top: 50px;
     padding-right: 20px;
@@ -150,7 +151,7 @@
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
     margin-left: 30%;
-   // text-align: right;
+    // text-align: right;
 
     @include md {
         padding-left: 140px;
@@ -161,6 +162,93 @@
 }
 
 .power-2 {
+    align-items: right;
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    width: 60%;
+    box-shadow: -10px 10px #F2FF00;
+    margin-left: 30%;
+    border-color: #000000;
+    border: 2px solid;
+
+    @include md {
+        padding-left: 140px;
+        font-size: 30px;
+        width: 90%;
+        font-weight: 300;
+    }
+
+    @include lg {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 300;
+    }
+}
+
+.fostering {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    // margin-left: 30%;
+
+    @include md {
+        padding-left: 140px;
+        padding-top: 140px;
+        font-size: 90px;
+        padding-right: 30px;
+    }
+}
+
+.fostering-2 {
+    align-items: right;
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    width: 60%;
+    box-shadow: 10px 10px #00B3FF;
+    // margin-left: 30%;
+    border-color: #000000;
+    border: 2px solid;
+
+    @include md {
+        padding-left: 140px;
+        font-size: 30px;
+        width: 90%;
+        font-weight: 300;
+    }
+
+    @include lg {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 300;
+    }
+}
+
+.positive {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    margin-left: 30%;
+    // text-align: right;
+
+    @include md {
+        padding-left: 140px;
+        padding-top: 140px;
+        font-size: 90px;
+        padding-right: 30px;
+    }
+}
+
+.positive-2 {
     align-items: right;
     padding: 15px 15px 15px 15px;
     font-size: 15px;
