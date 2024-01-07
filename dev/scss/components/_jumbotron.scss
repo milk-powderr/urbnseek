@@ -23,7 +23,7 @@
 
 .footer_word {
   color: #000000;
-  font-size: 20px;
+  font-size: 15px;
 	font-family: 'Poppins', sans-serif;
   animation: marquee 1.5s infinite linear;
   flex-shrink: 0;
@@ -37,5 +37,9 @@
     100% {
       transform: translateX(-100%);
     }
+  }
+
+  @include md {
+    font-size: 20px;
   }
 }

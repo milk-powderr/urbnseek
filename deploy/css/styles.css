@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer_word {
   color: #000000;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
   animation: marquee 1.5s infinite linear;
   flex-shrink: 0;
@@ -469,6 +469,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+@media (min-width: 768px) {
+  .footer_word {
+    font-size: 20px;
   }
 }
 
@@ -511,11 +516,12 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .what-are-we {
     font-size: 150px;
+    padding-bottom: 30px;
   }
 }
 
 .what-are-we-2 {
-  padding: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
@@ -540,7 +546,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #text-over {
   text-shadow: -1px 1px #000000;
-  color: #00B3FF;
+  color: #00FFFE;
 }
 @media (min-width: 768px) {
   #text-over {
@@ -570,7 +576,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cultivating-2 {
   align-items: right;
-  padding: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
@@ -615,7 +621,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .change-2 {
   align-items: right;
-  padding: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
@@ -662,7 +668,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .power-2 {
   align-items: right;
-  padding: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
@@ -707,7 +713,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fostering-2 {
   align-items: right;
-  padding: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
@@ -755,7 +761,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .positive-2 {
   align-items: right;
-  padding: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
   font-size: 15px;
   font-family: "Poppins", "sans-serif";
   font-weight: 400;

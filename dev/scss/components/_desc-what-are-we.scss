@@ -16,18 +16,16 @@
 
     @include md {
         font-size: 150px;
+        padding-bottom: 30px;
     }
 }
 
 .what-are-we-2 {
-    padding: 15px 15px 15px 15px;
-    // padding-right: 10px;
-    // padding-left: 10px;
+    padding: 20px 20px 20px 20px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
     width: 75%;
-    //  padding-bottom: 20px;
     box-shadow: 10px 10px #00FFFE;
     border-color: #000000;
     border: 2px solid;
@@ -38,6 +36,7 @@
     @include md {
         font-size: 30px;
         font-weight: 300;
+
     }
 
     @include lg {
@@ -49,7 +48,7 @@
 
 #text-over {
     text-shadow: -1px 1px #000000;
-    color: #00B3FF;
+    color: #00FFFE;
 
     @include md {
         text-shadow: -2px 2px #000000;
@@ -77,7 +76,7 @@
 
 .cultivating-2 {
     align-items: right;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
@@ -120,7 +119,7 @@
 
 .change-2 {
     align-items: right;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
@@ -165,7 +164,7 @@
 
 .power-2 {
     align-items: right;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
@@ -208,7 +207,7 @@
 
 .fostering-2 {
     align-items: right;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
@@ -254,7 +253,7 @@
 
 .positive-2 {
     align-items: right;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
