@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  margin-left: 30%;
+  margin-left: 37%;
 }
 @media (min-width: 768px) {
   .cultivating {
@@ -574,7 +574,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   width: 60%;
   box-shadow: -10px 10px #FF4B00;
-  margin-left: 30%;
+  margin-left: 37%;
   border-color: #000000;
   border: 2px solid;
 }
@@ -645,7 +645,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  margin-left: 30%;
+  margin-left: 37%;
 }
 @media (min-width: 768px) {
   .power {
@@ -664,7 +664,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   width: 60%;
   box-shadow: -10px 10px #F2FF00;
-  margin-left: 30%;
+  margin-left: 37%;
   border-color: #000000;
   border: 2px solid;
 }
@@ -708,7 +708,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
   width: 60%;
-  box-shadow: 10px 10px #00B3FF;
+  box-shadow: 10px 10px #43E458;
   border-color: #000000;
   border: 2px solid;
 }
@@ -735,7 +735,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500;
-  margin-left: 30%;
+  margin-left: 37%;
 }
 @media (min-width: 768px) {
   .positive {
@@ -753,8 +753,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", "sans-serif";
   font-weight: 400;
   width: 60%;
-  box-shadow: -10px 10px #F2FF00;
-  margin-left: 30%;
+  box-shadow: -10px 10px #FF3AC0;
+  margin-left: 37%;
   border-color: #000000;
   border: 2px solid;
 }
