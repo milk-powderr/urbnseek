@@ -20,14 +20,17 @@
 }
 
 .what-are-we-2 {
-    padding-top: 10px;
+    padding: 15px 15px 15px 15px;
+    // padding-right: 10px;
+    // padding-left: 10px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
     width: 60%;
-    padding-bottom: 20px;
-    padding-right: 20px;
+  //  padding-bottom: 20px;
     box-shadow: 10px 10px #00FFFE;
+    border-color: #000000;
+    border: 2px solid;
 
     // background-color: #00FFFE; 
     // background-image: linear-gradient(to right, #ffffff 10%, rgba(0,0,0,0) 0%), linear-gradient(to bottom, #ffffff 20%, rgba(0,0,0,0) 0%);
@@ -56,6 +59,7 @@
 .cultivating {
     padding-top: 50px;
     padding-right: 20px;
+    padding-bottom: 10px;
     font-size: 25px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
@@ -72,15 +76,101 @@
 
 .cultivating-2 {
     align-items: right;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 15px 15px 15px 15px;
     font-size: 15px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
     width: 60%;
     box-shadow: -10px 10px #FF4B00;
     margin-left: 30%;
+    border-color: #000000;
+    border: 2px solid;
+
+    @include md {
+        padding-left: 140px;
+        font-size: 30px;
+        width: 90%;
+        font-weight: 300;
+    }
+
+    @include lg {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 300;
+    }
+}
+
+.change {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    // margin-left: 30%;
+
+    @include md {
+        padding-left: 140px;
+        padding-top: 140px;
+        font-size: 90px;
+        padding-right: 30px;
+    }
+}
+
+.change-2 {
+    align-items: right;
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    width: 60%;
+    box-shadow: 10px 10px #00B3FF;
+    // margin-left: 30%;
+    border-color: #000000;
+    border: 2px solid;
+
+    @include md {
+        padding-left: 140px;
+        font-size: 30px;
+        width: 90%;
+        font-weight: 300;
+    }
+
+    @include lg {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 300;
+    }
+}
+.power {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    margin-left: 30%;
+   // text-align: right;
+
+    @include md {
+        padding-left: 140px;
+        padding-top: 140px;
+        font-size: 90px;
+        padding-right: 30px;
+    }
+}
+
+.power-2 {
+    align-items: right;
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    width: 60%;
+    box-shadow: -10px 10px #F2FF00;
+    margin-left: 30%;
+    border-color: #000000;
+    border: 2px solid;
 
     @include md {
         padding-left: 140px;
