@@ -86,8 +86,7 @@
     @include md {
         padding: 25px 25px 25px 25px;
         font-size: 30px;
-        box-shadow: 20px 20px #FF4B00;
-
+        box-shadow: -20px 20px #FF4B00;
         font-weight: 300;
     }
 
@@ -107,7 +106,6 @@
     font-weight: 500;
 
     @include md {
-        padding-left: 140px;
         padding-top: 140px;
         font-size: 60px;
         padding-right: 30px;
@@ -122,14 +120,13 @@
     font-weight: 400;
     width: 75%;
     box-shadow: 10px 10px #00B3FF;
-    // margin-left: 37%;
     border-color: #000000;
     border: 2px solid;
 
     @include md {
-        padding-left: 140px;
+        padding: 25px 25px 25px 25px;
+        box-shadow: 20px 20px #00B3FF;
         font-size: 30px;
-
         font-weight: 300;
     }
 
@@ -151,10 +148,8 @@
     margin-left: 20%;
 
     @include md {
-        padding-left: 140px;
         padding-top: 140px;
         font-size: 60px;
-        padding-right: 30px;
     }
 }
 
@@ -171,9 +166,9 @@
     border: 2px solid;
 
     @include md {
+        box-shadow: -20px 20px #F2FF00;
         padding: 25px 25px 25px 25px;
         font-size: 30px;
-
         font-weight: 300;
     }
 
@@ -191,10 +186,8 @@
     font-size: 25px;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
-    // margin-left: 37%;
 
     @include md {
-        padding-left: 140px;
         padding-top: 140px;
         font-size: 60px;
         padding-right: 30px;
@@ -214,7 +207,8 @@
     border: 2px solid;
 
     @include md {
-        padding-left: 140px;
+        padding: 25px 25px 25px 25px;
+        box-shadow: 20px 20px #43E458;
         font-size: 30px;
         font-weight: 300;
     }
@@ -236,7 +230,7 @@
     margin-left: 20%;
 
     @include md {
-        padding-left: 140px;
+     //   padding-left: 140px;
         padding-top: 140px;
         font-size: 60px;
         padding-right: 30px;
@@ -256,9 +250,9 @@
     border: 2px solid;
 
     @include md {
+        box-shadow: -20px 20px #FF3AC0;
         padding: 25px 25px 25px 25px;
         font-size: 30px;
-
         font-weight: 300;
     }
 

@@ -588,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
   .cultivating-2 {
     padding: 25px 25px 25px 25px;
     font-size: 30px;
-    box-shadow: 20px 20px #FF4B00;
+    box-shadow: -20px 20px #FF4B00;
     font-weight: 300;
   }
 }
@@ -610,7 +610,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .change {
-    padding-left: 140px;
     padding-top: 140px;
     font-size: 60px;
     padding-right: 30px;
@@ -630,7 +629,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .change-2 {
-    padding-left: 140px;
+    padding: 25px 25px 25px 25px;
+    box-shadow: 20px 20px #00B3FF;
     font-size: 30px;
     font-weight: 300;
   }
@@ -655,10 +655,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .power {
-    padding-left: 140px;
     padding-top: 140px;
     font-size: 60px;
-    padding-right: 30px;
   }
 }
 
@@ -676,6 +674,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .power-2 {
+    box-shadow: -20px 20px #F2FF00;
     padding: 25px 25px 25px 25px;
     font-size: 30px;
     font-weight: 300;
@@ -699,7 +698,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .fostering {
-    padding-left: 140px;
     padding-top: 140px;
     font-size: 60px;
     padding-right: 30px;
@@ -719,7 +717,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .fostering-2 {
-    padding-left: 140px;
+    padding: 25px 25px 25px 25px;
+    box-shadow: 20px 20px #43E458;
     font-size: 30px;
     font-weight: 300;
   }
@@ -743,7 +742,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .positive {
-    padding-left: 140px;
     padding-top: 140px;
     font-size: 60px;
     padding-right: 30px;
@@ -764,6 +762,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
   .positive-2 {
+    box-shadow: -20px 20px #FF3AC0;
     padding: 25px 25px 25px 25px;
     font-size: 30px;
     font-weight: 300;
