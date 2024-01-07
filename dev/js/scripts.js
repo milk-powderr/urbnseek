@@ -7,7 +7,6 @@ function eventcolor(){
 
 var tl =  gsap.timeline()
 
-// gsap.set(".event-link", { alpha: 1})
 gsap.set(".cross", {rotation: 0})
 ;
 
