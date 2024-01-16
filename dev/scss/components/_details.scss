@@ -1,6 +1,6 @@
 .details {
     padding-left: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     padding-top: 30px;
     font-size: 20px;
     color: #ffffff;
@@ -53,6 +53,17 @@
     }
 }
 
+.newsletter {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding-top: 50px;
+
+    @include md {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+}
+
 .contact {
     display: grid;
     grid-template-columns: 10% 90% 1fr;
@@ -69,15 +80,19 @@
     }
 }
 
-.subscribe {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+// .subscribe {
+//     grid-column: 1 / 2;
+//     grid-row: 2 / 3;
 
-    @include md {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-    }
-}
+//     @include md {
+//         grid-column: 3 / 4;
+//         grid-row: 1 / 2;
+//     }
+// }
+
+// .email-space {
+//     padding-top: 20px;
+// }
 
 .subscribe-button {
     font-family: 'Bangers';

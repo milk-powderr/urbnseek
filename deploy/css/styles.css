@@ -1152,7 +1152,7 @@ hr {
 
 .details {
   padding-left: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   padding-top: 30px;
   font-size: 20px;
   color: #ffffff;
@@ -1205,6 +1205,18 @@ hr {
   }
 }
 
+.newsletter {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  .newsletter {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+}
+
 .contact {
   display: grid;
   grid-template-columns: 10% 90% 1fr;
@@ -1220,17 +1232,6 @@ hr {
   .contact {
     grid-template-columns: 8% 10% 82% 1fr;
     grid-template-rows: 80px 1fr;
-  }
-}
-
-.subscribe {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-@media (min-width: 768px) {
-  .subscribe {
-    grid-column: 3/4;
-    grid-row: 1/2;
   }
 }
 
