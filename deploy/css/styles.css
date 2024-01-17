@@ -1240,10 +1240,10 @@ hr {
   font-weight: 100;
   background-color: #1c1c1c;
   color: #ffffff;
+  font-family: "Poppins", "sans-serif";
   border-width: 0px;
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
-  text-shadow: -1px 1px #00B3FF;
 }
 @media (min-width: 768px) {
   .subscribe-button {
