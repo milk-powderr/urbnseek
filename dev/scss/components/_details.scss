@@ -66,7 +66,7 @@
 
 .contact {
     display: grid;
-    grid-template-columns: 10% 90% 1fr;
+    grid-template-columns: 20% 80% 1fr;
     grid-template-rows: 80px 100px 1fr;
 
     @include md {
@@ -80,20 +80,6 @@
     }
 }
 
-// .subscribe {
-//     grid-column: 1 / 2;
-//     grid-row: 2 / 3;
-
-//     @include md {
-//         grid-column: 3 / 4;
-//         grid-row: 1 / 2;
-//     }
-// }
-
-// .email-space {
-//     padding-top: 20px;
-// }
-
 .subscribe-button {
     font-family: 'Bangers';
     font-weight: 100;
@@ -103,11 +89,6 @@
     border-width: 0px;
     padding: 10px 20px 10px 20px;
     margin-top: 20px;
-
-
-    @include md {
-        text-shadow: -2px 2px #00B3FF;
-    }
 }
 
 .email-insert {
@@ -122,7 +103,9 @@
 
 .placeholder {
     padding-left: 20px;
+    font-family: 'Poppins', 'sans-serif';
 }
+
 .header_logo {
  width: 100px;
 }

@@ -1219,7 +1219,7 @@ hr {
 
 .contact {
   display: grid;
-  grid-template-columns: 10% 90% 1fr;
+  grid-template-columns: 20% 80% 1fr;
   grid-template-rows: 80px 100px 1fr;
 }
 @media (min-width: 768px) {
@@ -1245,11 +1245,6 @@ hr {
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
 }
-@media (min-width: 768px) {
-  .subscribe-button {
-    text-shadow: -2px 2px #00B3FF;
-  }
-}
 
 .email-insert {
   background-color: #212121;
@@ -1263,6 +1258,7 @@ hr {
 
 .placeholder {
   padding-left: 20px;
+  font-family: "Poppins", "sans-serif";
 }
 
 .header_logo {
