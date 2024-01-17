@@ -1163,10 +1163,12 @@ hr {
   display: grid;
   grid-template-rows: 33% 33% 33%;
   padding-left: 30px;
+  place-items: center;
 }
 
 .insta-logo {
   height: 20px;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .insta-logo {
@@ -1177,6 +1179,7 @@ hr {
 
 .facebook-logo {
   height: 20px;
+  align-items: center;
   grid-row: 3/4;
 }
 @media (min-width: 768px) {
@@ -1188,6 +1191,7 @@ hr {
 
 .email-logo {
   height: 25px;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .email-logo {
