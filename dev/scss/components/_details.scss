@@ -11,7 +11,7 @@
 .icons {
     display: grid;
     grid-template-rows: 33% 33% 33%;
-    padding-left: 30px;
+   // padding-left: 30px;
     place-items: center;
 }
 
@@ -60,7 +60,7 @@
 
 .contact {
     display: grid;
-    grid-template-columns: 30% 10% 1fr;
+    grid-template-columns: 25% 10% 1fr;
 
     @include md {
         grid-template-columns: 10% 10% 80% 1fr;
