@@ -1146,17 +1146,10 @@ hr {
 }
 
 .newsletter {
-  grid-column: 1/2;
-  grid-row: 2/3;
   padding-top: 50px;
+  display: grid;
+  grid-template-rows: 60px 70px 1fr;
 }
-@media (min-width: 768px) {
-  .newsletter {
-    grid-column: 3/4;
-    grid-row: 1/2;
-  }
-}
-
 .contact {
   display: grid;
   grid-template-columns: 25% 10% 1fr;
@@ -1164,13 +1157,11 @@ hr {
 @media (min-width: 768px) {
   .contact {
     grid-template-columns: 10% 10% 80% 1fr;
-    grid-template-rows: 80px 200px 1fr;
   }
 }
 @media (min-width: 992px) {
   .contact {
     grid-template-columns: 8% 10% 82% 1fr;
-    grid-template-rows: 80px 1fr;
   }
 }
 
@@ -1183,8 +1174,9 @@ hr {
   border-width: 0px;
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
+  grid-row: 2/3;
+  width: 170px;
 }
-
 .email-space {
   border-width: 0px;
   border-radius: 0;
@@ -1193,6 +1185,12 @@ hr {
   padding-left: 20px;
   font-family: "Poppins", "sans-serif";
   width: 90%;
+}
+@media (min-width: 768px) {
+  .email-space {
+    width: 390px;
+    grid-row: 1/2;
+  }
 }
 
 .placeholder {
