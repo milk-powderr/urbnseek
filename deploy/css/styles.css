@@ -1150,19 +1150,10 @@ hr {
   display: grid;
   grid-template-rows: 60px 70px 1fr;
 }
+
 .contact {
   display: grid;
-  grid-template-columns: 25% 10% 1fr;
-}
-@media (min-width: 768px) {
-  .contact {
-    grid-template-columns: 10% 10% 80% 1fr;
-  }
-}
-@media (min-width: 992px) {
-  .contact {
-    grid-template-columns: 8% 10% 82% 1fr;
-  }
+  grid-template-columns: 110px 40px 1fr;
 }
 
 .subscribe-button {
@@ -1177,6 +1168,7 @@ hr {
   grid-row: 2/3;
   width: 170px;
 }
+
 .email-space {
   border-width: 0px;
   border-radius: 0;

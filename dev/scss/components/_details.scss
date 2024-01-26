@@ -11,7 +11,6 @@
 .icons {
     display: grid;
     grid-template-rows: 33% 33% 33%;
-   // padding-left: 30px;
     place-items: center;
 }
 
@@ -48,31 +47,14 @@
 }
 
 .newsletter {
-  //  grid-column: 1 / 2;
-   // grid-row: 2 / 3;
     padding-top: 50px;
     display: grid;
     grid-template-rows: 60px 70px 1fr;
-
-    @include md {
-  //      grid-column: 3 / 4;
-  //      grid-row: 1 / 2;
-    }
 }
 
 .contact {
     display: grid;
-    grid-template-columns: 25% 10% 1fr;
-
-    @include md {
-        grid-template-columns: 10% 10% 80% 1fr;
-    //    grid-template-rows: 80px 200px 1fr;
-    }
-
-    @include lg {
-        grid-template-columns: 8% 10% 82% 1fr;
-     //   grid-template-rows: 80px 1fr;
-    }
+    grid-template-columns: 110px 40px 1fr;
 }
 
 .subscribe-button {
@@ -85,12 +67,7 @@
     padding: 10px 20px 10px 20px;
     margin-top: 20px;
     grid-row: 2 / 3;
-              width: 170px;
-
-    @include md {
-        //  width: 50%;
-
-      }
+    width: 170px;
 }
 
 .email-space {
@@ -104,7 +81,7 @@
 
     @include md {
         width: 390px;
-              grid-row: 1 / 2;
+        grid-row: 1 / 2;
     }
 }
 
